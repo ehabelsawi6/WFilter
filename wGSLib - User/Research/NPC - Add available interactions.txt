@@ -1,0 +1,958 @@
+signed int __thiscall CGObjNPCNPC::SetAvailableInteractions(srCGObj_PC_AND_OTHERS *this, int a2, int a3, int a4, int a5, int a6)
+{
+  srCInstancePC *v8; // ecx
+  srRefObjChar_vft *v9; // eax
+  bool v10; // zf
+  srCGObj_PC_AND_OTHERS *v11; // ebx
+  srRefObjChar_vft *v12; // esi
+  int v13; // eax
+  int v14; // ecx
+  int v15; // esi
+  int v16; // edx
+  unsigned __int8 *v17; // edi
+  int v18; // ecx
+  int v19; // esi
+  int (__thiscall *pfnGetCodeName)(srCGObj_PC_AND_OTHERS *); // eax
+  void *v21; // eax
+  const char *szStr; // eax
+  const char *v23; // eax
+  const char *v24; // eax
+  const char *v25; // eax
+  const char *v26; // eax
+  const char *v27; // eax
+  const char *v28; // eax
+  const char *v29; // eax
+  const char *v30; // eax
+  const char *v31; // eax
+  const char *v32; // eax
+  const char *v33; // eax
+  const char *v34; // eax
+  const char *v35; // eax
+  const char *v36; // eax
+  const char *v37; // eax
+  const char *v38; // eax
+  const char *v39; // eax
+  const char *v40; // eax
+  const char *v41; // eax
+  const char *v42; // eax
+  const char *v43; // eax
+  const char *v44; // eax
+  const char *v45; // eax
+  const char *v46; // eax
+  const char *v47; // eax
+  const char *v48; // eax
+  const char *v49; // eax
+  const char *v50; // eax
+  const char *v51; // eax
+  const char *v52; // eax
+  const char *v53; // eax
+  const char *v54; // eax
+  const char *v55; // eax
+  const char *v56; // eax
+  const char *v57; // eax
+  const char *v58; // eax
+  const char *v59; // eax
+  const char *v60; // eax
+  const char *v61; // eax
+  const char *v62; // eax
+  const char *v63; // eax
+  const char *v64; // eax
+  const char *v65; // eax
+  const char *v66; // eax
+  const char *v67; // eax
+  const char *v68; // eax
+  const char *v69; // eax
+  const char *v70; // eax
+  const char *v71; // eax
+  const char *v72; // eax
+  const char *v73; // eax
+  const char *v74; // eax
+  const char *v75; // eax
+  const char *v76; // eax
+  const char *v77; // eax
+  const char *v78; // eax
+  const char *v79; // eax
+  const char *v80; // eax
+  const char *v81; // eax
+  const char *v82; // eax
+  const char *v83; // eax
+  const char *v84; // eax
+  const char *v85; // eax
+  const char *v86; // eax
+  const char *v87; // eax
+  const char *v88; // eax
+  const char *v89; // eax
+  const char *v90; // eax
+  const char *v91; // eax
+  const char *v92; // eax
+  const char *v93; // eax
+  const char *v94; // eax
+  const char *v95; // eax
+  const char *v96; // eax
+  const char *v97; // eax
+  const char *v98; // eax
+  const char *v99; // eax
+  const char *v100; // eax
+  const char *v101; // eax
+  const char *v102; // eax
+  const char *v103; // eax
+  const char *v104; // eax
+  const char *v105; // eax
+  const char *v106; // eax
+  const char *v107; // eax
+  const char *v108; // eax
+  const char *v109; // eax
+  const char *v110; // eax
+  const char *v111; // eax
+  const char *v112; // eax
+  const char *v113; // eax
+  const char *v114; // eax
+  const char *v115; // eax
+  const char *v116; // eax
+  const char *v117; // eax
+  const char *v118; // eax
+  const char *v119; // eax
+  const char *v120; // eax
+  const char *v121; // eax
+  const char *v122; // eax
+  const char *v123; // eax
+  const char *v124; // eax
+  const char *v125; // eax
+  const char *v126; // eax
+  const char *v127; // eax
+  const char *v128; // eax
+  const char *v129; // eax
+  const char *v130; // eax
+  const char *v131; // eax
+  const char *v132; // eax
+  const char *v133; // eax
+  const char *v134; // eax
+  const char *v135; // eax
+  const char *v136; // eax
+  const char *v137; // eax
+  const char *v138; // eax
+  const char *v139; // eax
+  const char *v140; // eax
+  const char *v141; // eax
+  const char *v142; // eax
+  const CHAR *v143; // edi
+  int v144; // ST8C_4
+  int v145; // eax
+  int *v146; // eax
+  const char *v147; // eax
+  const char *v148; // eax
+  int v149; // eax
+  int v150; // ecx
+  int v151; // edi
+  char nRefObjID; // al
+  _BYTE *v153; // eax
+  const char *v154; // eax
+  unsigned int v155; // ebx
+  int v156; // ecx
+  int v157; // edx
+  int *v158; // edx
+  int v159; // edi
+  const CHAR *v160; // edi
+  int v161; // ST8C_4
+  int v162; // eax
+  int v164; // [esp+A4h] [ebp-50h]
+  int v165; // [esp+A8h] [ebp-4Ch]
+  srRefObjChar_vft *v166; // [esp+ACh] [ebp-48h]
+  int v167; // [esp+B4h] [ebp-40h]
+  char v168; // [esp+B8h] [ebp-3Ch]
+  srStdString std_string; // [esp+C4h] [ebp-30h]
+  int v170; // [esp+F0h] [ebp-4h]
+
+  if ( !CGObjNPC::Func_212(this, a2, a3, a4, a5, a6) || !sub_4C7920(this) )
+    return 0;
+  (*&this->VFT->field_564)(this);
+  (*&this->VFT->field_35C)(this);
+  v8 = this->pInstance;
+  v9 = v8->pRefObj.VFT;
+  v10 = v9->field_190 == 0;
+  v166 = v8->pRefObj.VFT;
+  if ( !v10 )
+  {
+    v11 = this;
+    v12 = v9;
+    v13 = *v9->field_94;
+    v14 = v12->field_94;
+    v15 = &v12->field_90;
+    v16 = v15;
+    v165 = v13;
+    v164 = v15;
+    v167 = v14;
+    while ( v16 == v15 )
+    {
+      if ( v13 == v167 )
+        goto LABEL_16;
+      if ( !v16 )
+        break;
+      if ( v13 == *(v16 + 4) )
+        sub_4880F0();
+      v17 = (v13 + 12);
+      if ( !(*&v11->VFT->InteractionModeRelated)(v11, *(v13 + 12)) )
+      {
+        sub_486FE0(&v168, &this->field_130, v17);
+        v11 = this;
+      }
+      sub_4885C0(v18, &v164);
+      v16 = v164;
+      if ( !v164 )
+        break;
+      v13 = v165;
+    }
+    sub_432020();
+  }
+LABEL_16:
+  if ( !DEC_CMainProcess_dword_D6A8DC )
+    DEC_DebugOops_sub_964B60();
+  v19 = *(DEC_CMainProcess_dword_D6A8DC + 271364);
+  pfnGetCodeName = this->VFT->GetCodeName;
+  v164 = *(DEC_CMainProcess_dword_D6A8DC + 271364);
+  v21 = pfnGetCodeName(this);
+  std_string.Length = 15;
+  std_string.MaxLengthPossibly = 0;
+  LOBYTE(std_string.Str16_1_Or_Heap_Ptr) = 0;
+  DEC_WIP_StdStringFromCharArray_401FC0(&std_string, v21, strlen(v21));
+  v170 = 0;
+  szStr = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    szStr = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(szStr, "WAREHOUSE") )
+    goto SET_WAREHOUSE_INTERACTABLE;
+  v23 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v23 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v23, "warehouse") )
+    goto SET_WAREHOUSE_INTERACTABLE;
+  v24 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v24 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v24, "NPC_SD_M_AREA_WAREHOUSE") )
+    goto SET_WAREHOUSE_INTERACTABLE;
+  v25 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v25 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v25, "NPC_SD_T_AREA_WAREHOUSE2") )
+  {
+SET_WAREHOUSE_INTERACTABLE:
+    (this->VFT->AddAvailableInteraction)(this, 3);
+    (this->VFT->AddAvailableInteraction)(this, 1);
+  }
+  v26 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v26 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v26, "NPC_CH_SMITH") )
+    goto SET_ARMOR_AND_SMITH;
+  v27 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v27 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v27, "NPC_CH_ARMOR") )
+    goto SET_ARMOR_AND_SMITH;
+  v28 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v28 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v28, "NPC_WC_SMITH") )
+    goto SET_ARMOR_AND_SMITH;
+  v29 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v29 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v29, "NPC_WC_ARMOR") )
+    goto SET_ARMOR_AND_SMITH;
+  v30 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v30 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v30, "NPC_KT_SMITH") )
+    goto SET_ARMOR_AND_SMITH;
+  v31 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v31 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v31, "NPC_KT_ARMOR") )
+    goto SET_ARMOR_AND_SMITH;
+  v32 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v32 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v32, "NPC_EU_SMITH") )
+    goto SET_ARMOR_AND_SMITH;
+  v33 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v33 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v33, "NPC_EU_ARMOR") )
+    goto SET_ARMOR_AND_SMITH;
+  v34 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v34 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v34, "NPC_CA_SMITH") )
+    goto SET_ARMOR_AND_SMITH;
+  v35 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v35 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v35, "NPC_CA_ARMOR") )
+    goto SET_ARMOR_AND_SMITH;
+  v36 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v36 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v36, "NPC_SD_M_AREA_SMITH") )
+    goto SET_ARMOR_AND_SMITH;
+  v37 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v37 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v37, "NPC_SD_M_AREA_ARMOR") )
+    goto SET_ARMOR_AND_SMITH;
+  v38 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v38 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v38, "NPC_SD_T_AREA_SMITH") )
+    goto SET_ARMOR_AND_SMITH;
+  v39 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v39 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v39, "NPC_SD_T_AREA_ARMOR") )
+SET_ARMOR_AND_SMITH:
+    (this->VFT->AddAvailableInteraction)(this, 4);
+  v40 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v40 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v40, "NPC_CH_SMITH") )
+    goto LABEL_456;
+  v41 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v41 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v41, "NPC_WC_SMITH") )
+    goto LABEL_456;
+  v42 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v42 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v42, "NPC_KT_SMITH") )
+    goto LABEL_456;
+  v43 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v43 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v43, "NPC_EU_SMITH") )
+    goto LABEL_456;
+  v44 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v44 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v44, "NPC_CA_SMITH") )
+    goto LABEL_456;
+  v45 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v45 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v45, "NPC_SD_M_AREA_SMITH") )
+    goto LABEL_456;
+  v46 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v46 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v46, "NPC_SD_T_AREA_SMITH") )
+LABEL_456:
+    (this->VFT->AddAvailableInteraction)(this, 32);
+  v47 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v47 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v47, "NPC_CH_HORSE") )
+    goto LABEL_457;
+  v48 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v48 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v48, "NPC_WC_HORSE") )
+    goto LABEL_457;
+  v49 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v49 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v49, "NPC_KT_HORSE") )
+    goto LABEL_457;
+  v50 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v50 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v50, "NPC_EU_HORSE") )
+    goto LABEL_457;
+  v51 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v51 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v51, "NPC_CA_HORSE") )
+    goto LABEL_457;
+  v52 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v52 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v52, "NPC_SD_M_AREA_HORSE") )
+  {
+LABEL_457:
+    (this->VFT->AddAvailableInteraction)(this, 1);
+    (this->VFT->AddAvailableInteraction)(this, 11);
+  }
+  v53 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v53 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v53, "NPC_CH_GENARAL_SP") )
+    goto LABEL_458;
+  v54 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v54 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v54, "NPC_WC_GUILD") )
+    goto LABEL_458;
+  v55 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v55 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v55, "NPC_KT_GUILD") )
+    goto LABEL_458;
+  v56 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v56 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v56, "NPC_EU_GUILD") )
+    goto LABEL_458;
+  v57 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v57 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v57, "NPC_CA_GUILD") )
+    goto LABEL_458;
+  v58 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v58 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v58, "NPC_SD_M_AREA_GUILD") )
+    goto LABEL_458;
+  v59 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v59 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v59, "NPC_SD_T_AREA_GUILD2") )
+  {
+LABEL_458:
+    (this->VFT->AddAvailableInteraction)(this, 15);
+    (this->VFT->AddAvailableInteraction)(this, 1);
+  }
+  v60 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v60 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v60, "NPC_CH_SOLDIER_EM1") )
+    goto LABEL_459;
+  v61 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v61 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v61, "NPC_EU_ADVICE3") )
+LABEL_459:
+    (this->VFT->AddAvailableInteraction)(this, 30);
+  v62 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v62 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v62, "NPC_TD_THIEF_BUY") )
+  {
+    (this->VFT->AddAvailableInteraction)(this, 12);
+    (this->VFT->AddAvailableInteraction)(this, 13);
+  }
+  v63 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v63 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v63, "NPC_CH_GENARAL_SW") )
+    goto LABEL_460;
+  v64 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v64 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v64, "NPC_WC_GENARAL_SW") )
+    goto LABEL_460;
+  v65 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v65 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v65, "NPC_KT_MINISTER") )
+LABEL_460:
+    (this->VFT->AddAvailableInteraction)(this, 14);
+  v66 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v66 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v66, "NPC_CH_DOCTOR") )
+    goto LABEL_461;
+  v67 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v67 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v67, "NPC_WC_DOCTOR") )
+    goto LABEL_461;
+  v68 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v68 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v68, "NPC_KT_DESIGNER") )
+    goto LABEL_461;
+  v69 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v69 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v69, "NPC_EU_MERCHANT") )
+    goto LABEL_461;
+  v70 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v70 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v70, "NPC_CA_MERCHANT") )
+    goto LABEL_461;
+  v71 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v71 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v71, "NPC_SD_M_AREA_MERCHANT") )
+LABEL_461:
+    (this->VFT->AddAvailableInteraction)(this, 20);
+  v72 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v72 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v72, "NPC_CH_GENARAL_SW") )
+    goto LABEL_462;
+  v73 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v73 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v73, "NPC_WC_GENARAL_SW") )
+    goto LABEL_462;
+  v74 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v74 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v74, "NPC_KT_MINISTER") )
+    goto LABEL_462;
+  v75 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v75 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v75, "NPC_EU_HUNTER") )
+    goto LABEL_462;
+  v76 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v76 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v76, "NPC_CA_HUNTER") )
+    goto LABEL_462;
+  v77 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v77 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v77, "NPC_SD_M_AREA_HUNTER") )
+LABEL_462:
+    (this->VFT->AddAvailableInteraction)(this, 22);
+  v78 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v78 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v78, "NPC_TD_THIEF_SELL") )
+    goto LABEL_463;
+  v79 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v79 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v79, "NPC_SD_T_AREA_THIEF") )
+LABEL_463:
+    (this->VFT->AddAvailableInteraction)(this, 21);
+  v80 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v80 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v80, "NPC_SD_THIEF_AGENT_CHANGER") )
+    goto LABEL_464;
+  v81 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v81 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v81, "NPC_SD_GUILD_AGENT") )
+    goto LABEL_464;
+  v82 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v82 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v82, "NPC_SD_GUILD_AGENT2") )
+    goto LABEL_464;
+  v83 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v83 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v83, "NPC_SD_GUILD_AGENT3") )
+  {
+LABEL_464:
+    if ( v19 == 1 )
+      (this->VFT->CountEmptyInventory)(this, 4, 255, 0.0, 0);
+  }
+  v84 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v84 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v84, "NPC_CH_SPECIAL2") )
+    goto LABEL_465;
+  v85 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v85 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v85, "NPC_WC_SPECIAL2") )
+    goto LABEL_465;
+  v86 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v86 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v86, "NPC_TK_SPECIAL") )
+    goto LABEL_465;
+  v87 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v87 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v87, "NPC_RM_SPECIAL") )
+    goto LABEL_465;
+  v88 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v88 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v88, "NPC_EU_SPECIAL") )
+    goto LABEL_465;
+  v89 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v89 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v89, "NPC_CA_SPECIAL") )
+    goto LABEL_465;
+  v90 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v90 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v90, "NPC_SD_M_AREA_SPECIAL") )
+    goto LABEL_465;
+  v91 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v91 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v91, "NPC_SD_M_AREA_SPECIAL2") )
+    goto LABEL_465;
+  v92 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v92 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v92, "NPC_SD_M_AREA_SPECIAL3") )
+LABEL_465:
+    (this->VFT->AddAvailableInteraction)(this, 12);
+  v93 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v93 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v93, "NPC_CH_FORTRESS_OFFICIAL") )
+    goto LABEL_466;
+  v94 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v94 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v94, "NPC_WC_FORTRESS_OFFICIAL") )
+    goto LABEL_466;
+  v95 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v95 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v95, "NPC_KT_FORTRESS_OFFICIAL") )
+    goto LABEL_466;
+  v96 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v96 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v96, "NPC_EU_FORTRESS_OFFICIAL") )
+    goto LABEL_466;
+  v97 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v97 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v97, "NPC_CA_FORTRESS_OFFICIAL") )
+  {
+LABEL_466:
+    (this->VFT->AddAvailableInteraction)(this, 24);
+    (this->VFT->AddAvailableInteraction)(this, 1);
+  }
+  v98 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v98 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v98, "NPC_CH_FORTRESS_MANAGER1") )
+    goto LABEL_467;
+  v99 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v99 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v99, "NPC_CH_FORTRESS_MANAGER2") )
+    goto LABEL_467;
+  v100 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v100 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v100, "NPC_WC_FORTRESS_MANAGER1") )
+    goto LABEL_467;
+  v101 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v101 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v101, "NPC_WC_FORTRESS_MANAGER2") )
+    goto LABEL_467;
+  v102 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v102 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v102, "NPC_KT_FORTRESS_MANAGER") )
+    goto LABEL_467;
+  v103 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v103 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v103, "NPC_EU_FORTRESS_MANAGER") )
+    goto LABEL_467;
+  v104 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v104 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v104, "NPC_CA_FORTRESS_MANAGER1") )
+    goto LABEL_467;
+  v105 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v105 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v105, "NPC_CA_FORTRESS_MANAGER2") )
+LABEL_467:
+    (this->VFT->AddAvailableInteraction)(this, 23);
+  v106 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v106 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v106, "NPC_CH_FORTRESS_BATTLEAIDE1") )
+    goto LABEL_468;
+  v107 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v107 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v107, "NPC_CH_FORTRESS_BATTLEAIDE2") )
+    goto LABEL_468;
+  v108 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v108 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v108, "NPC_WC_FORTRESS_BATTLEAIDE1") )
+    goto LABEL_468;
+  v109 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v109 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v109, "NPC_WC_FORTRESS_BATTLEAIDE2") )
+    goto LABEL_468;
+  v110 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v110 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v110, "NPC_KT_FORTRESS_BATTLEAIDE") )
+    goto LABEL_468;
+  v111 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v111 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v111, "NPC_EU_FORTRESS_BATTLEAIDE") )
+    goto LABEL_468;
+  v112 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v112 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v112, "NPC_CA_FORTRESS_BATTLEAIDE1") )
+    goto LABEL_468;
+  v113 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v113 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v113, "NPC_CA_FORTRESS_BATTLEAIDE2") )
+  {
+LABEL_468:
+    (this->VFT->AddAvailableInteraction)(this, 25);
+    (this->VFT->AddAvailableInteraction)(this, 1);
+  }
+  v114 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v114 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v114, "NPC_CH_FORTRESS_SMITH1") )
+    goto LABEL_469;
+  v115 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v115 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v115, "NPC_CH_FORTRESS_SMITH2") )
+    goto LABEL_469;
+  v116 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v116 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v116, "NPC_WC_FORTRESS_SMITH1") )
+    goto LABEL_469;
+  v117 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v117 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v117, "NPC_WC_FORTRESS_SMITH2") )
+    goto LABEL_469;
+  v118 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v118 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v118, "NPC_KT_FORTRESS_SMITH") )
+    goto LABEL_469;
+  v119 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v119 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v119, "NPC_EU_FORTRESS_SMITH") )
+    goto LABEL_469;
+  v120 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v120 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v120, "NPC_CA_FORTRESS_SMITH1") )
+    goto LABEL_469;
+  v121 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v121 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v121, "NPC_CA_FORTRESS_SMITH2") )
+  {
+LABEL_469:
+    (this->VFT->AddAvailableInteraction)(this, 26);
+    (this->VFT->AddAvailableInteraction)(this, 4);
+  }
+  v122 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v122 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v122, "NPC_CH_FORTRESS_TRAINER1") )
+    goto LABEL_470;
+  v123 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v123 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v123, "NPC_CH_FORTRESS_TRAINER2") )
+    goto LABEL_470;
+  v124 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v124 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v124, "NPC_WC_FORTRESS_TRAINER1") )
+    goto LABEL_470;
+  v125 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v125 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v125, "NPC_WC_FORTRESS_TRAINER2") )
+    goto LABEL_470;
+  v126 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v126 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v126, "NPC_KT_FORTRESS_TRAINER") )
+    goto LABEL_470;
+  v127 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v127 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v127, "NPC_EU_FORTRESS_TRAINER") )
+    goto LABEL_470;
+  v128 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v128 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v128, "NPC_CA_FORTRESS_TRAINER1") )
+    goto LABEL_470;
+  v129 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v129 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v129, "NPC_CA_FORTRESS_TRAINER2") )
+LABEL_470:
+    (this->VFT->AddAvailableInteraction)(this, 27);
+  v130 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v130 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v130, "STRUCTURE_GATE_PULLEY_JA_01") )
+    goto LABEL_471;
+  v131 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v131 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v131, "STRUCTURE_GATE_PULLEY_JA_02") )
+    goto LABEL_471;
+  v132 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v132 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v132, "STRUCTURE_GATE_PULLEY_JA_03") )
+    goto LABEL_471;
+  v133 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v133 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v133, "STRUCTURE_GATE_PULLEY_BJ_01") )
+    goto LABEL_471;
+  v134 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v134 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v134, "STRUCTURE_GATE_PULLEY_BJ_02") )
+    goto LABEL_471;
+  v135 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v135 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v135, "STRUCTURE_GATE_PULLEY_HT_01") )
+    goto LABEL_471;
+  v136 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v136 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v136, "STRUCTURE_GATE_PULLEY_HT_02") )
+    goto LABEL_471;
+  v137 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v137 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v137, "STRUCTURE_GATE_PULLEY_HT_03") )
+LABEL_471:
+    (this->VFT->AddAvailableInteraction)(this, 31);
+  v138 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v138 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v138, "NPC_BATTLE_ARENA_MANAGER") )
+  {
+    (this->VFT->AddAvailableInteraction)(this, 33);
+  }
+  else
+  {
+    v139 = std_string.Str16_1_Or_Heap_Ptr;
+    if ( std_string.Length < 0x10u )
+      v139 = &std_string.Str16_1_Or_Heap_Ptr;
+    if ( strstr(v139, "NPC_BATTLE_ARENA_EXCHANGER") )
+      (this->VFT->AddAvailableInteraction)(this, 34);
+  }
+  v140 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v140 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v140, "NPC_OPEN_MARKET_JUEL") )
+    (this->VFT->AddAvailableInteraction)(this, 35);
+  v141 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v141 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v141, "NPC_FWORLD_RECALL_PARTY") )
+    (this->VFT->AddAvailableInteraction)(this, 39);
+  v142 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v142 = &std_string.Str16_1_Or_Heap_Ptr;
+  if ( strstr(v142, "NPC_INS_EXIT_TELEPORT") )
+    (this->VFT->AddAvailableInteraction)(this, 41);
+  v143 = std_string.Str16_1_Or_Heap_Ptr;
+  if ( std_string.Length < 0x10u )
+    v143 = &std_string.Str16_1_Or_Heap_Ptr;
+  v144 = lstrlenA("NPC_SIEGE_DUNGEON_TELEPORT");
+  v145 = lstrlenA(v143);
+  if ( CompareStringA(0x400u, 0x10001u, v143, v145, "NPC_SIEGE_DUNGEON_TELEPORT", v144) == 2 )
+    (this->VFT->AddAvailableInteraction)(this, 40);
+  if ( v164 )
+  {
+    v146 = std_string.Str16_1_Or_Heap_Ptr;
+    if ( std_string.Length < 0x10u )
+      v146 = &std_string.Str16_1_Or_Heap_Ptr;
+    DEC_MsgOut_sub_936640(0x1000000, "%s", v146);
+    v147 = std_string.Str16_1_Or_Heap_Ptr;
+    if ( std_string.Length < 0x10u )
+      v147 = &std_string.Str16_1_Or_Heap_Ptr;
+    if ( !_stricmp(v147, "NPC_CH_GACHA_MACHINE") )
+      goto LABEL_472;
+    v148 = std_string.Str16_1_Or_Heap_Ptr;
+    if ( std_string.Length < 0x10u )
+      v148 = &std_string.Str16_1_Or_Heap_Ptr;
+    if ( !_stricmp(v148, "NPC_CH_GACHA_OPERATOR") )
+LABEL_472:
+      (this->VFT->CountEmptyInventory)(this, 4, 255, 0.0, 0);
+    v149 = v166->field_190;
+    if ( v149 )
+    {
+      v150 = *(v149 + 60);
+      v164 = v150 ? (*(v149 + 64) - v150) >> 2 : 0;
+      v155 = 0;
+      if ( v164 > 0 )
+      {
+        while ( 1 )
+        {
+          v156 = v166->field_190;
+          if ( (v155 & 0x80000000) == 0 )
+          {
+            v157 = *(v156 + 60);
+            if ( v157 )
+            {
+              if ( v155 < (*(v156 + 64) - v157) >> 2 )
+              {
+                if ( !v157 || v155 >= (*(v156 + 64) - v157) >> 2 )
+                  sub_488520();
+                v158 = *(v157 + 4 * v155);
+                if ( v158 )
+                {
+                  v159 = *v158;
+                  if ( *v158 )
+                  {
+                    v160 = (*(v159 + 28) < 0x10u ? v159 + 8 : *(v159 + 8));
+                    v161 = lstrlenA("GATE_TD");
+                    v162 = lstrlenA(v160);
+                    if ( CompareStringA(0x400u, 0x10001u, v160, v162, "GATE_TD", v161) == 2 )
+                      break;
+                  }
+                }
+              }
+            }
+          }
+          if ( ++v155 >= v164 )
+            goto LABEL_449;
+        }
+        (*&this->VFT->field_394)(8);
+      }
+    }
+  }
+  else
+  {
+    if ( !unk1 )
+      DEC_DebugOops_sub_964B60();
+    v151 = unk1;
+    nRefObjID = (this->VFT->GetRefObjID)(this);
+    v153 = sub_4CCB70(v151 + 0x110, nRefObjID);
+    if ( v153 && *v153 )
+      (this->VFT->AddAvailableInteraction)(this, 17);
+    v154 = std_string.Str16_1_Or_Heap_Ptr;
+    if ( std_string.Length < 0x10u )
+      v154 = &std_string.Str16_1_Or_Heap_Ptr;
+    if ( strstr(v154, "NPC_CH_GACHA_OPERATOR") )
+      (this->VFT->AddAvailableInteraction)(18); // Gacha
+  }
+LABEL_449:
+  v170 = -1;
+  if ( std_string.Length >= 0x10u )
+    j__free(std_string.Str16_1_Or_Heap_Ptr);
+  return 1;
+}

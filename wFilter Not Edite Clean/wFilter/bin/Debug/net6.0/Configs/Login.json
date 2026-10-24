@@ -1,0 +1,8 @@
+{
+  "ServerName": "wkFilter",
+  "MaxPlayers": 1000,
+  "FakePlayers": 0,
+  "CaptchaCode": "0",
+  "AllowClientLess": false,
+  "ExcludedAccounts": []
+}

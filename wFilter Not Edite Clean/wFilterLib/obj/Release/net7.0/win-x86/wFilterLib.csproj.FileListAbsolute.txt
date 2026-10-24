@@ -1,0 +1,12 @@
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\bin\Release\net7.0\win-x86\wFilterLib.deps.json
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\bin\Release\net7.0\win-x86\wFilterLib.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\bin\Release\net7.0\win-x86\CustomMarshalers.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\win-x86\wFilterLib.csproj.AssemblyReference.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\win-x86\wFilterLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\win-x86\wFilterLib.AssemblyInfoInputs.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\win-x86\wFilterLib.AssemblyInfo.cs
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\win-x86\wFilterLib.csproj.CoreCompileInputs.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\win-x86\wFilterLib.csproj.CopyComplete
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\win-x86\wFilterLib.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\win-x86\refint\wFilterLib.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\win-x86\ref\wFilterLib.dll

@@ -1,0 +1,17 @@
+{
+  "WelcomeMessage": "Welcome [{playername}] To [{servername}]",
+  "DisableStallOutSideTown": false,
+  "DisableDropItemInTown": false,
+  "BlockPHBot": false,
+  "DisableAlchemySystem": false,
+  "EnablePlusNotice": true,
+  "PlusNoticeMinPlus": 1,
+  "PlusNoticeColor": 1,
+  "PlusNoticeMessage": "[{player}] has successfully enhanced an item to +{plus}!",
+  "DisableZerkPetRide": false,
+  "BadWords": [],
+  "DisableScrollsOutSideTown": [],
+  "AutoCapeRegions": [],
+  "DisableExcStallRestartExitByRegion": [],
+  "ExtraOpcodesWhiteList": []
+}

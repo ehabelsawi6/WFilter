@@ -1,0 +1,884 @@
+﻿  AutoCriticalSection.cpp
+  CGStorage.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(27,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(27,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(28,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(28,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(28,13): error C2146: syntax error: missing ';' before identifier 'slot'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(29,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(29,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(29,12): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(29,12): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(30,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(30,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(30,13): error C2146: syntax error: missing ';' before identifier 'cdwGetItemAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(31,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(31,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(31,12): error C2146: syntax error: missing ';' before identifier 'pResult'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(31,21): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(32,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(32,8): error C2065: 'popad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(44,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(44,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(47,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(47,12): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(47,15): error C3192: syntax error: '^' is not a prefix operator (did you mean '*'?)
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(47,17): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(48,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(48,12): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(48,15): error C3192: syntax error: '^' is not a prefix operator (did you mean '*'?)
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(48,17): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(51,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(51,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(51,13): error C2146: syntax error: missing ';' before identifier 'destSlot'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(52,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(52,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(52,13): error C2146: syntax error: missing ';' before identifier 'sourceSlot'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(53,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(53,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(53,12): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(53,12): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(54,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(54,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(54,12): error C2146: syntax error: missing ';' before identifier 'cl'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(54,12): error C2065: 'cl': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(56,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(56,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(56,13): error C2146: syntax error: missing ';' before identifier 'cdwMoveItemAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(58,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(58,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(58,12): error C2146: syntax error: missing ';' before identifier 'result'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(58,20): error C2065: 'al': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(60,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(60,8): error C2065: 'popad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(73,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(73,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(75,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(75,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(75,13): error C2146: syntax error: missing ';' before identifier 'slot'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(76,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(76,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(76,12): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(76,12): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(77,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(77,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(77,13): error C2146: syntax error: missing ';' before identifier 'cdwCanPushItemAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(79,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(79,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(79,12): error C2146: syntax error: missing ';' before identifier 'result'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(79,20): error C2065: 'al': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(81,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(81,8): error C2065: 'popad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(94,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(94,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(96,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(96,12): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(96,15): error C3192: syntax error: '^' is not a prefix operator (did you mean '*'?)
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(96,17): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(97,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(97,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(97,12): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(97,12): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(98,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(98,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(98,12): error C2146: syntax error: missing ';' before identifier 'cl'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(98,12): error C2065: 'cl': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(99,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(99,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(99,13): error C2146: syntax error: missing ';' before identifier 'cdwCheckAvatarsetIntegrityAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(101,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(101,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(101,12): error C2146: syntax error: missing ';' before identifier 'result'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(101,20): error C2065: 'al': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(103,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(103,8): error C2065: 'popad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(117,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(117,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(119,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(119,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(119,13): error C2146: syntax error: missing ';' before identifier 'unk2_usually_1'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(120,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(120,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(120,13): error C2146: syntax error: missing ';' before identifier 'unk1_00CD3A80h'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(121,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(121,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(121,12): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(121,12): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(122,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(122,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(122,13): error C2146: syntax error: missing ';' before identifier 'cdwCheckEquipsetIntegrityAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(124,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(124,8): error C2065: 'popad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(138,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(138,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(140,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(140,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(140,13): error C2146: syntax error: missing ';' before identifier 'countUsed'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(141,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(141,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(141,13): error C2146: syntax error: missing ';' before identifier 'endSlot'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(142,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(142,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(142,13): error C2146: syntax error: missing ';' before identifier 'startSlot'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(143,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(143,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(143,12): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(143,12): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(144,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(144,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(144,13): error C2146: syntax error: missing ';' before identifier 'cdwCountEmptySlotAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(146,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(146,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(146,12): error C2146: syntax error: missing ';' before identifier 'result'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(146,20): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(148,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(148,8): error C2065: 'popad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(161,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(161,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(164,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(164,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(164,13): error C2146: syntax error: missing ';' before identifier 'startSlot'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(165,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(165,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(165,12): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(165,12): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(166,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(166,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(166,13): error C2146: syntax error: missing ';' before identifier 'cdwFindFirstEmptySlotAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(168,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(168,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(168,12): error C2146: syntax error: missing ';' before identifier 'result'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(168,20): error C2065: 'al': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\CGStorage.cpp(168,22): fatal error C1003: error count exceeds 100; stopping compilation
+  ConfigMgr.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ConfigMgr.cpp(4,10): fatal error C1083: Cannot open include file: 'VMProtectSDK.h': No such file or directory
+  DamageMeter.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GameWorldContextEX.h(18,2): warning C4091: 'typedef ': ignored on left of 'tPositionWithNavCellQuad' when no variable is declared
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DamageMeter.h(16,2): warning C4091: 'typedef ': ignored on left of 'SAggroMapSecondPairItem' when no variable is declared
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DamageMeter.cpp(115,80): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  DbTriggerActionDBSet.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(69,68): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(69,65): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(70,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(70,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(71,76): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(71,73): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(72,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(72,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(141,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(141,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(142,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(142,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(143,69): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(143,66): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(144,98): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(144,95): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(213,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(213,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(214,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(214,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(215,98): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(215,95): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(216,70): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(216,67): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(217,69): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(217,66): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(286,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(286,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(287,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(287,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(288,80): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(288,77): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(289,98): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(289,95): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(290,74): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(290,71): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(291,78): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(291,75): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(360,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(360,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(361,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(361,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(362,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(362,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(363,79): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(363,76): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(430,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(430,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(431,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(431,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(432,79): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(432,76): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(433,74): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(433,71): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(434,73): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(434,70): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(435,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(435,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(436,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(436,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(437,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(437,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(507,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(507,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(508,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(508,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(509,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(509,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(579,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(579,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(580,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(580,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(581,84): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(581,81): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(582,84): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(582,81): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(652,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(652,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(653,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(653,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(722,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(722,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(723,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(723,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(724,74): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(724,71): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(794,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(794,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(795,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(795,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(796,80): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(796,77): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(797,69): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(797,66): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(798,69): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(798,66): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(866,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(866,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(867,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(867,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(868,74): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(868,71): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(936,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(936,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(937,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(937,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(938,73): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(938,70): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(939,73): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(939,70): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(940,74): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(940,71): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1010,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1010,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1011,73): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1011,70): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1012,78): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1012,75): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1013,73): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1013,70): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1014,74): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1014,71): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1015,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1015,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1016,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1016,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1017,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1017,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1018,76): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1018,73): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1019,74): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1019,71): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1020,75): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1020,72): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1090,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1090,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1091,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1091,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1092,104): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1092,101): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1160,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1160,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1161,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1161,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1162,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1162,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1163,69): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1163,66): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1232,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1232,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1233,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1233,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1234,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1234,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1303,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1303,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1304,71): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1304,68): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1305,69): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1305,66): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1306,73): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1306,70): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1307,74): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1307,71): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1308,74): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DbTriggerActionDBSet.cpp(1308,71): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+  DbTriggerActions.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GameWorldContextEX.h(18,2): warning C4091: 'typedef ': ignored on left of 'tPositionWithNavCellQuad' when no variable is declared
+  dllmain.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\dllmain.cpp(8,10): fatal error C1083: Cannot open include file: 'VMProtectSDK.h': No such file or directory
+  FilterContentDBSet.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\FilterContentDBSet.cpp(69,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\FilterContentDBSet.cpp(69,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\FilterContentDBSet.cpp(134,72): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\FilterContentDBSet.cpp(134,69): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+  Game.cpp
+  GObjPC.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GameWorldContextEX.h(18,2): warning C4091: 'typedef ': ignored on left of 'tPositionWithNavCellQuad' when no variable is declared
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(88,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(88,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(90,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(90,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(90,12): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(90,12): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(91,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(91,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(91,12): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(91,12): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(92,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(92,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(92,13): error C2146: syntax error: missing ';' before identifier 'dwCallAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(94,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(94,8): error C2065: 'popad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(106,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(106,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(109,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(109,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(109,13): error C2146: syntax error: missing ';' before identifier 'dwTmpInt'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(112,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(112,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(112,12): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(112,12): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(114,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(114,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(114,12): error C2146: syntax error: missing ';' before identifier 'ebx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(114,12): error C2065: 'ebx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(115,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(115,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(115,13): error C2146: syntax error: missing ';' before identifier 'dwCallAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(117,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(117,8): error C2065: 'popad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(164,79): warning C4311: 'type cast': pointer truncation from 'CGObjPC *' to 'DWORD32'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(164,79): warning C4302: 'type cast': truncation from 'CGObjPC *' to 'DWORD32'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(219,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(219,8): error C2065: 'movzx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(219,14): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(219,14): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(222,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(222,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(222,13): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(222,13): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(225,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(225,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(225,12): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(225,12): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(228,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(228,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(228,12): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(228,12): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(231,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(231,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(231,12): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(231,12): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(232,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(232,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(232,13): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(232,13): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(261,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(263,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(263,8): error C2146: syntax error: missing ';' before identifier 'grantname'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(264,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(264,8): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(265,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(265,8): error C2143: syntax error: missing ';' before 'this'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(267,3): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(267,7): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(267,7): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(268,7): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(268,10): error C3192: syntax error: '^' is not a prefix operator (did you mean '*'?)
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(268,12): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(270,3): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(270,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(270,7): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(271,3): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(271,8): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GObjPC.cpp(271,8): error C2065: 'eax': undeclared identifier
+  IniReader.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\IniReader.cpp(22,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\IniReader.cpp(26,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Library.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GameWorldContextEX.h(18,2): warning C4091: 'typedef ': ignored on left of 'tPositionWithNavCellQuad' when no variable is declared
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\DamageMeter.h(16,2): warning C4091: 'typedef ': ignored on left of 'SAggroMapSecondPairItem' when no variable is declared
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\Library.cpp(44,67): error C2440: '<function-style-cast>': cannot convert from 'std::string' to 'std::n_string'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\Library.cpp(44,67): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\Library.cpp(175,66): error C2440: '<function-style-cast>': cannot convert from 'std::string' to 'std::n_string'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\Library.cpp(175,66): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+  MainProcess.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MainProcess.cpp(67,9): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CMainProcess *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MainProcess.cpp(67,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 2 has type 'int'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MainProcess.cpp(67,9): warning C4313: 'printf': '%p' in format string conflicts with argument 2 of type 'int'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MainProcess.cpp(67,9): warning C4477: 'printf' : format string '%04X' requires an argument of type 'unsigned int', but variadic argument 3 has type 'void *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MainProcess.cpp(67,9): warning C4313: 'printf': '%X' in format string conflicts with argument 3 of type 'void *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MainProcess.cpp(67,9): warning C4473: 'printf' : not enough arguments passed for format string
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MainProcess.cpp(67,9): message : placeholders and their parameters expect 4 variadic arguments, but 3 were provided
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MainProcess.cpp(67,9): message : the missing variadic argument 4 is required by format string '%p'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MainProcess.cpp(96,48): warning C4474: 'printf' : too many arguments passed for format string
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MainProcess.cpp(96,48): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  MiscDBSet.cpp
+  MsgStreamBuffer.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(36,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(36,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(37,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(37,8): error C2065: 'pushfd': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(40,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(40,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(40,13): error C2146: syntax error: missing ';' before identifier 'dest'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(41,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(41,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(41,12): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(41,12): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(42,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(42,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(42,12): error C2146: syntax error: missing ';' before identifier 'di'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(42,12): error C2065: 'di': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(45,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(45,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(45,12): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(45,12): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(46,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(46,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(46,13): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(46,13): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(48,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(48,8): error C2065: 'popfd': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(49,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(49,8): error C2065: 'popad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(67,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(67,8): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(68,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(68,8): error C2065: 'pushfd': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(71,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(71,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(71,13): error C2146: syntax error: missing ';' before identifier 'src'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(74,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(74,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(74,12): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(74,12): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(77,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(77,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(77,12): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(77,12): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(80,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(80,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(80,12): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(80,12): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(81,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(81,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(81,13): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(81,13): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(83,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(83,8): error C2065: 'popfd': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(84,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(84,8): error C2065: 'popad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\MsgStreamBuffer.cpp(89,32): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=WORD
+          ]
+  ObjMgr.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GameWorldContextEX.h(18,2): warning C4091: 'typedef ': ignored on left of 'tPositionWithNavCellQuad' when no variable is declared
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(101,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(101,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(101,13): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(102,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(102,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(102,13): error C2146: syntax error: missing ';' before identifier 'fltArgZero'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(103,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(103,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(103,13): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(104,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(104,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(104,13): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(105,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(105,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(105,13): error C2146: syntax error: missing ';' before identifier 'btType'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(106,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(106,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(106,13): error C2146: syntax error: missing ';' before identifier 'fltRange'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(107,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(107,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(107,13): error C2146: syntax error: missing ';' before identifier 'fltArgZero'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(108,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(108,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(108,13): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(109,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(109,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(109,13): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(110,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(110,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(110,13): error C2146: syntax error: missing ';' before identifier 'pRefObj'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(111,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(111,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(111,13): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(112,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(112,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(112,13): error C2146: syntax error: missing ';' before identifier 'worldID'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(113,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(113,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(113,13): error C2146: syntax error: missing ';' before identifier 'dwGameWorldMgr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(114,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(114,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(114,12): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(114,12): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(115,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(115,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(115,13): error C2146: syntax error: missing ';' before identifier 'dwFuncCallAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(124,15): warning C4311: 'type cast': pointer truncation from 'CGObjPC *' to 'DWORD'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(124,15): warning C4302: 'type cast': truncation from 'CGObjPC *' to 'DWORD'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(125,3): warning C4312: 'reinterpret_cast': conversion from 'DWORD' to 'SPosInfoForMobSpawn *' of greater size
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(139,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(139,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(139,13): error C2146: syntax error: missing ';' before identifier 'nUnk2'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(140,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(140,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(140,13): error C2146: syntax error: missing ';' before identifier 'szSkillCodeName128'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(141,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(141,8): error C2065: 'fld': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(141,12): error C2146: syntax error: missing ';' before identifier 'dblUnk1'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(142,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(142,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(142,12): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(142,12): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(143,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(143,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(143,13): error C2146: syntax error: missing ';' before identifier 'dwCGObjPC_EngageBuffSkill_Addr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(148,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(150,3): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(150,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(150,7): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(151,3): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(151,3): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(151,7): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(151,7): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(152,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(152,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(152,8): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(153,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(153,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(153,8): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(154,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(154,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(154,8): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(155,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(155,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(155,8): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(156,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(156,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(156,8): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(157,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(157,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(157,8): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(158,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(158,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(158,8): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(159,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(159,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(159,8): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(160,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(160,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(160,8): error C2146: syntax error: missing ';' before identifier 'Time'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(161,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(161,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(162,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(162,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(162,8): error C2143: syntax error: missing ';' before 'constant'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(163,3): error C2146: syntax error: missing ';' before identifier 'call'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(163,3): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(163,8): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(163,8): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\ObjMgr.cpp(164,2): error C2143: syntax error: missing ';' before '}'
+  RefDataManager.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(89,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(89,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(89,13): error C2146: syntax error: missing ';' before identifier 'dwObjID'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(90,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(90,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(90,12): error C2146: syntax error: missing ';' before identifier 'edi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(90,12): error C2065: 'edi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(91,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(91,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(91,13): error C2146: syntax error: missing ';' before identifier 'dwCallAddr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(92,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(92,8): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(92,12): error C2146: syntax error: missing ';' before identifier 'pResult'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RefDataManager.cpp(92,21): error C2065: 'eax': undeclared identifier
+  RegionRestrictionDBSet.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionDBSet.cpp(64,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionDBSet.cpp(64,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionDBSet.cpp(65,75): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionDBSet.cpp(65,72): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+  RegionRestrictionMgr.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\GameWorldContextEX.h(18,2): warning C4091: 'typedef ': ignored on left of 'tPositionWithNavCellQuad' when no variable is declared
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(53,12): error C2485: 'naked': unrecognized extended attribute
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(55,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(57,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(57,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(57,3): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(57,3): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(57,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(57,3): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(57,3): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(57,3): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(57,3): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(57,3): error C2143: syntax error: missing ';' before '}'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(60,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(60,8): error C2146: syntax error: missing ';' before identifier 'ebp'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(60,8): error C2065: 'ebp': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(61,3): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(61,8): error C2146: syntax error: missing ';' before identifier 'IsHideNameRegion'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(61,8): warning C4551: function call missing argument list
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(63,3): error C2065: 'cmp': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(63,7): error C2146: syntax error: missing ';' before identifier 'al'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(63,7): error C2065: 'al': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(65,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(65,3): error C2065: 'pop': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(65,3): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(65,3): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(65,3): error C2146: syntax error: missing ';' before identifier 'pop'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(65,3): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(65,3): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(65,3): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(65,3): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(65,3): error C2143: syntax error: missing ';' before '}'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(67,3): error C2065: 'je': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(67,6): error C2146: syntax error: missing ';' before identifier 'PUT_CUSTOM_CHAR_NAME'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(67,6): error C2065: 'PUT_CUSTOM_CHAR_NAME': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(68,3): error C2065: 'jmp': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(68,7): error C2146: syntax error: missing ';' before identifier 'JUMPBACK'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(68,7): error C2065: 'JUMPBACK': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(71,3): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(71,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(71,7): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(74,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(74,8): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(74,8): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(75,3): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(75,7): error C2146: syntax error: missing ';' before identifier 'dword'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(75,7): error C2065: 'dword': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(75,13): error C2146: syntax error: missing ';' before identifier 'ptr'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(75,13): error C2065: 'ptr': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(75,17): error C2146: syntax error: missing ';' before identifier 'ss'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(75,23): error C2337: 'esp': attribute not found
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(75,27): error C2143: syntax error: missing ']' before '+'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(75,27): error C2059: syntax error: '+'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(76,3): error C2065: 'jmp': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(76,7): error C2146: syntax error: missing ';' before identifier 'GROUP_SPAWN_PUT_NAME_HOOK_JUMPBACK'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(80,12): error C2485: 'naked': unrecognized extended attribute
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(82,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(84,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(84,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(84,3): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(84,3): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(84,3): error C2146: syntax error: missing ';' before identifier 'push'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(84,3): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(84,3): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(84,3): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(84,3): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(84,3): error C2143: syntax error: missing ';' before '}'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(87,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(87,8): error C2146: syntax error: missing ';' before identifier 'ebp'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(87,8): error C2065: 'ebp': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(88,3): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(88,8): error C2146: syntax error: missing ';' before identifier 'IsHideNameRegion'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(88,8): warning C4551: function call missing argument list
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(89,3): error C2065: 'cmp': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(89,7): error C2146: syntax error: missing ';' before identifier 'al'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(89,7): error C2065: 'al': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(91,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(91,3): error C2065: 'pop': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(91,3): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(91,3): error C2065: 'edx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(91,3): error C2146: syntax error: missing ';' before identifier 'pop'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(91,3): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(91,3): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(91,3): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(91,3): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(91,3): error C2143: syntax error: missing ';' before '}'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(93,3): error C2065: 'je': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(93,6): error C2146: syntax error: missing ';' before identifier 'PUT_EMPTY_GUILD_NAME'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(93,6): error C2065: 'PUT_EMPTY_GUILD_NAME': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(94,3): error C2065: 'jmp': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(94,7): error C2146: syntax error: missing ';' before identifier 'JUMPBACK'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(94,7): error C2065: 'JUMPBACK': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(97,3): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(97,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(97,7): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(101,3): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(101,7): error C2146: syntax error: missing ';' before identifier 'edi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(101,7): error C2065: 'edi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(101,12): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(102,3): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(102,8): error C2146: syntax error: missing ';' before identifier 'edi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(102,8): error C2065: 'edi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(103,3): error C2065: 'mov': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(103,7): error C2146: syntax error: missing ';' before identifier 'esi'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(103,7): error C2065: 'esi': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(103,12): error C2065: 'ebx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(104,3): error C2065: 'jmp': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(104,7): error C2146: syntax error: missing ';' before identifier 'GROUP_SPAWN_PUT_GUILD_NAME_HOOK_JUMPBACK'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(108,12): error C2485: 'naked': unrecognized extended attribute
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(110,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(112,3): error C2065: 'pushad': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\RegionRestrictionMgr.cpp(112,9): fatal error C1003: error count exceeds 100; stopping compilation
+  RemodelUtility.cpp
+  Generating Code...
+  Compiling...
+  SettingsDBSet.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\SettingsDBSet.cpp(64,67): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\SettingsDBSet.cpp(64,64): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\SettingsDBSet.cpp(65,104): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\SettingsDBSet.cpp(65,101): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\SettingsDBSet.cpp(66,78): error C2664: 'SQLRETURN SQLGetData(SQLHSTMT,SQLUSMALLINT,SQLSMALLINT,SQLPOINTER,SQLLEN,SQLLEN *)': cannot convert argument 6 from 'SQLINTEGER *' to 'SQLLEN *'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\SettingsDBSet.cpp(66,75): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\sql.h(748,20): message : see declaration of 'SQLGetData'
+  StaticPatches.cpp
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(223,12): error C2485: 'naked': unrecognized extended attribute
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(225,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(225,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(225,13): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(225,13): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(226,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(226,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(226,13): error C2146: syntax error: missing ';' before identifier 'LogUniqueMonsterEntered'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(226,13): warning C4551: function call missing argument list
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(227,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(227,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(227,13): error C2146: syntax error: missing ';' before identifier 'ORIG_UNIQUE_ENTERED_MSG_CALL_ADDR'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(228,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(228,8): error C2065: 'jmp': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(228,12): error C2146: syntax error: missing ';' before identifier 'UNIQUE_ENTERED_MSG_HOOK_JUMPBACK'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(231,12): error C2485: 'naked': unrecognized extended attribute
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(233,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(233,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(233,13): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(233,13): error C2065: 'ecx': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(234,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(234,8): error C2065: 'push': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(234,13): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(234,13): error C2065: 'eax': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(235,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(235,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(235,13): error C2146: syntax error: missing ';' before identifier 'LogUniqueMonsterKilled'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(235,13): warning C4551: function call missing argument list
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(236,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(236,8): error C2065: 'call': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(236,13): error C2146: syntax error: missing ';' before identifier 'ORIG_UNIQUE_KILLED_MSG_CALL_ADDR'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(237,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(237,8): error C2065: 'jmp': undeclared identifier
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(237,12): error C2146: syntax error: missing ';' before identifier 'UNIQUE_KILLED_MSG_HOOK_JUMPBACK'
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(363,29): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+D:\ssd drive\source\silkroad\GsLibs\wGSLib - Vero\StaticPatches.cpp(363,29): warning C4309: 'initializing': truncation of constant value
+  Generating Code...

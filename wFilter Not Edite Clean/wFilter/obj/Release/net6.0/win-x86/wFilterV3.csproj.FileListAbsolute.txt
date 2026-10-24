@@ -1,0 +1,34 @@
+D:\Development\wFilterOutPut\Release\net6.0\win-x86\wFilterV3.exe
+D:\Development\wFilterOutPut\Release\net6.0\win-x86\wFilterV3.deps.json
+D:\Development\wFilterOutPut\Release\net6.0\win-x86\wFilterV3.runtimeconfig.json
+D:\Development\wFilterOutPut\Release\net6.0\win-x86\wFilterV3.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.csproj.AssemblyReference.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.AssemblyInfoInputs.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.AssemblyInfo.cs
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.csproj.CoreCompileInputs.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.csproj.CopyComplete
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\refint\wFilterV3.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.genruntimeconfig.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\ref\wFilterV3.dll
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.csproj.AssemblyReference.cache
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.AssemblyInfoInputs.cache
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.AssemblyInfo.cs
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.csproj.CoreCompileInputs.cache
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.csproj.CopyComplete
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.dll
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\refint\wFilterV3.dll
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.genruntimeconfig.cache
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\ref\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.csproj.AssemblyReference.cache
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.AssemblyInfoInputs.cache
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.AssemblyInfo.cs
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.csproj.CoreCompileInputs.cache
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.csproj.CopyComplete
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\refint\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\wFilterV3.genruntimeconfig.cache
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Release\net6.0\win-x86\ref\wFilterV3.dll

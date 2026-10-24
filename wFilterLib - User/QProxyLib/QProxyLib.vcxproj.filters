@@ -1,0 +1,1525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameMain">
+      <UniqueIdentifier>{496ad21a-fca8-4a78-9d82-e05e4fee6fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Defines">
+      <UniqueIdentifier>{9cc0445b-e90a-495c-8141-10a9698dafc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{5aef5718-6156-49d9-a8fb-d3c4666f7555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\MemoryPoolManager">
+      <UniqueIdentifier>{85e066a3-979a-4fc5-99cd-73d2623e6879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\MsgStreamBuffer">
+      <UniqueIdentifier>{48882761-608a-49a4-923f-b784509d8f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\NetCustoms">
+      <UniqueIdentifier>{f103d5b5-0180-419e-a81f-f98b601fd4d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network\MessageHandler">
+      <UniqueIdentifier>{160c8878-a5a2-4d55-9461-07970cc28906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures">
+      <UniqueIdentifier>{40f53e6d-9487-45c0-9d55-5369f02a3cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\HWIDManager">
+      <UniqueIdentifier>{8c1cc637-7363-4996-9a69-814574f492f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character">
+      <UniqueIdentifier>{1a535907-4dcc-4a21-bab9-081224ce0970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff">
+      <UniqueIdentifier>{3ff3dd98-3d5e-44c1-ac57-cf557c87072e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\CICPlayer">
+      <UniqueIdentifier>{f98c86cf-e86d-4d27-b87f-24e0aebcfafa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Menu_Icons">
+      <UniqueIdentifier>{e7ba7e46-1dfc-4875-b54d-96ec54d2c394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Form">
+      <UniqueIdentifier>{5b7a823f-b57a-4b41-89d0-35a21936e173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Panel">
+      <UniqueIdentifier>{c1a7e419-4963-4da4-932f-1053a34dde2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Buttons">
+      <UniqueIdentifier>{378cad46-ec23-4278-90d5-6c5c9ffa40da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Chest">
+      <UniqueIdentifier>{b635d359-331e-47ff-9af8-7d7bf72bf45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\SoundManager">
+      <UniqueIdentifier>{15bb098f-83b0-4335-ad2b-0d059f1e1588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\GlobalDataManager">
+      <UniqueIdentifier>{e8848040-723b-4c03-a7da-855053174538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Discord_SDK">
+      <UniqueIdentifier>{083bb79f-4c54-4819-89af-a717bd078d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Discord_SDK\Addon">
+      <UniqueIdentifier>{34e24120-e51f-4fd1-a0b3-ba8b8c8caacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Pandora">
+      <UniqueIdentifier>{7ae3fbb8-228c-47e9-9409-6021b02d7b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ScrollBar">
+      <UniqueIdentifier>{65611d15-3f10-4230-a1b0-1ff8751600d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\PHBotManager">
+      <UniqueIdentifier>{dbf6a0e8-5315-4490-9c01-a39d0d738a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\ChatManager">
+      <UniqueIdentifier>{865b4fdf-08ec-4695-9f4c-8dbdbd179bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\CGInterface">
+      <UniqueIdentifier>{f1d5b00d-3cc7-4269-a2bf-82f5003886eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\GameColors">
+      <UniqueIdentifier>{5b29b5a9-cc37-4bce-b915-35317ea03afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\GlobalDataManager\TextStringManager">
+      <UniqueIdentifier>{ffe6809a-5b41-4843-b325-1e28fc2d5fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Paginator">
+      <UniqueIdentifier>{a9bc86da-e832-4ca0-8e7b-28e1b4d79159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Menu">
+      <UniqueIdentifier>{fb87ce67-38fc-4540-a042-97b41954e610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TitleManager">
+      <UniqueIdentifier>{2fe934b7-bc44-4cf3-8bf9-343c94ffce5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\Spawn">
+      <UniqueIdentifier>{0770e7b8-7c94-4725-857c-3129ec7cf004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DPS Meter">
+      <UniqueIdentifier>{f611c913-1832-4c68-8d1e-913abcb36a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\GlobalItemLinking">
+      <UniqueIdentifier>{91d71aa2-ab8d-4cee-8289-968687f765dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UniqueStatus">
+      <UniqueIdentifier>{e1fbd576-b1e9-4e35-a8a8-3d0fe92b245d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\KillCounters">
+      <UniqueIdentifier>{dfc6ed03-286a-49ad-9d6b-3e65c92c8ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\KillCounters\Fortress">
+      <UniqueIdentifier>{d97a2a17-3ff4-4dcb-88fe-ee9f752dac75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\CharacterIcons">
+      <UniqueIdentifier>{2d3400a9-ae80-4645-bc12-b2617bf89fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Licensing">
+      <UniqueIdentifier>{8486c85a-52b4-478d-bd9b-e97b34cede59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TextBox">
+      <UniqueIdentifier>{e5327591-ef88-4c2c-af45-0a077f214b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\CharacterDependentData">
+      <UniqueIdentifier>{1115b108-2e4d-44b9-90ee-e89bd2a76835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Emojis">
+      <UniqueIdentifier>{15486c99-6795-428e-8524-77ca660de57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\OldThreeJob">
+      <UniqueIdentifier>{7df96b2e-42fb-46d1-89bc-4cd6e92de6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CustomButtons">
+      <UniqueIdentifier>{93308418-486f-4666-bf2a-a90b7494bedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CustomBackgrounds">
+      <UniqueIdentifier>{70f5e4de-e674-4e4b-80a8-162819b5868d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SilkroadWeb">
+      <UniqueIdentifier>{ae073c5f-0ef2-43dd-8d76-de730d310014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CustomFrame">
+      <UniqueIdentifier>{96f8e828-8e5b-4e50-bf37-e9ece8997d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\EventManager">
+      <UniqueIdentifier>{497dd024-4eeb-497d-8df5-01dd03bc8c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\OldItemMall">
+      <UniqueIdentifier>{a2684348-ca6c-460c-a93d-fd0021454746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\InterfaceActions">
+      <UniqueIdentifier>{eabf2ffa-500f-4773-a885-6e3c432c806b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\ParamRare">
+      <UniqueIdentifier>{26ca00a4-4600-42b1-a9ff-2cee78d0e6e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\OldAlchemy">
+      <UniqueIdentifier>{afe33a9b-b6b1-4c7f-b6b7-5cad6e4a3135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\OldLoginScreen">
+      <UniqueIdentifier>{382fe331-b38b-41e2-82f5-7c4fcaf61416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\OldExpBar">
+      <UniqueIdentifier>{a2ae5831-4b4a-426f-b8f5-c45299f6321b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WebManager">
+      <UniqueIdentifier>{a879cf47-d65c-4ea0-be37-3d5244eb469d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\CNIRMManager">
+      <UniqueIdentifier>{74106384-550a-498a-8ace-53d4a06277b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\Helpers">
+      <UniqueIdentifier>{7454cb4a-54cb-427b-9f6b-df19526ebe6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\Helpers\StringHelper">
+      <UniqueIdentifier>{72f22be4-598b-48c6-9bb1-20da27f58d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\Helpers\MemoryHelper">
+      <UniqueIdentifier>{c5850498-c589-4689-8f62-1ccdee28ae70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\Helpers\Cryptography">
+      <UniqueIdentifier>{58b18a87-0bb1-4c63-bc06-3ff96f5b818a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStuff\Helpers\Random">
+      <UniqueIdentifier>{afabb93e-7fb0-4403-9ddd-4da86d227330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine">
+      <UniqueIdentifier>{11906f0a-e06b-44ca-a76d-3c10036a3ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\Misc">
+      <UniqueIdentifier>{9e509811-4149-4bdd-a285-fefa15d2d8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\Engine">
+      <UniqueIdentifier>{81dd5f25-f92c-43db-b04c-a3f7e398b889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\Hooks">
+      <UniqueIdentifier>{3bc5d665-e238-40e9-883e-784c8ede5c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\Hooks\Input">
+      <UniqueIdentifier>{2fb4cd17-94f5-4974-a278-eeaaa5dfb757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\Hooks\Common">
+      <UniqueIdentifier>{a08e54ac-d8c0-4e1d-a8e6-e2898eb9dd47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs">
+      <UniqueIdentifier>{396c9a00-3ddd-4cbd-b337-8380a67a0f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\Helpers">
+      <UniqueIdentifier>{0d304e40-da8e-4d47-9313-9c5e8943bed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\IconWindow">
+      <UniqueIdentifier>{a27605de-2598-43a6-aa92-e56f1cc5d4a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\ChestWindow">
+      <UniqueIdentifier>{e9651ac8-455c-4afc-b7d6-6f93ce26ff48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\Pandora">
+      <UniqueIdentifier>{96caab63-e290-40e7-9f89-6835232c7921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\Pandora\Menu">
+      <UniqueIdentifier>{e54f9543-ff62-4875-bd5e-55f20271ffff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\Pandora\SplashScreen">
+      <UniqueIdentifier>{0c83cb61-663b-4b28-8926-e1dc40c167b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\TitleManager">
+      <UniqueIdentifier>{4e71713c-d4cf-4f41-8881-01affa42f188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\DPSMeter">
+      <UniqueIdentifier>{289b9757-d47b-44de-b6f6-2ad626d755a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\UniqueStatus">
+      <UniqueIdentifier>{99313c2a-ec6a-4260-af43-f3d4e13cddf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\KillCounters">
+      <UniqueIdentifier>{c3e6cfeb-76d0-464e-9c53-a38b3cf029c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\GrantNameWindow">
+      <UniqueIdentifier>{4aec3118-48ad-4ee3-b866-4496ff175a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\CustomTitleWindow">
+      <UniqueIdentifier>{50b23a24-6e7e-4090-b262-ff0d7de4854c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\RankingWindow">
+      <UniqueIdentifier>{8f6e7aa9-2e2c-4c0f-9fc8-3429a7a2faa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\EventManager">
+      <UniqueIdentifier>{d139764f-c78f-454f-beed-2dd1ebceba44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameFeatures\ItemCompare">
+      <UniqueIdentifier>{edf0e0f5-501f-48ae-b360-f91fb8a88b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\Pandora\ClientCommonSettings">
+      <UniqueIdentifier>{cb0fc029-9940-4503-9ed4-72fa2ab57376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\EventTimesWindow">
+      <UniqueIdentifier>{abad82ae-91e4-464d-8568-f2aa0cf5fd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\EventTimes">
+      <UniqueIdentifier>{ec35f53e-ece9-4df0-9c3e-d1ad97c4b1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Anoha">
+      <UniqueIdentifier>{e952c20e-aaae-4b2e-993c-b4714bde5961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\LockSystem">
+      <UniqueIdentifier>{1fb5a3c5-de5d-46f8-8ced-fc4ceb7ce9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\LockSystem">
+      <UniqueIdentifier>{040db22a-3757-4356-968d-3c33c9b4c71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CheckBox">
+      <UniqueIdentifier>{3a348f7c-b76d-4c46-99fa-c677ac5f0433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\NewLook">
+      <UniqueIdentifier>{2ace0646-f5e4-49c4-bdcc-7389badb07e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\interface">
+      <UniqueIdentifier>{5fdaa6c7-e3cd-4c03-9ac5-dfd3e229b09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\interface\ifcommon">
+      <UniqueIdentifier>{0ad6256f-1b08-4397-b76b-207acbfc6b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\interface\frame">
+      <UniqueIdentifier>{d350e5e7-b7c4-4083-beb6-9e51d19f1da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\interface\ifcommon\bg_tile">
+      <UniqueIdentifier>{ae586d20-64df-4b05-bb29-fd6518ba91ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\D3DEngine\GUIs\DynamicShop">
+      <UniqueIdentifier>{afa5d5ca-ac58-48af-b6d8-a926e2a99079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DynamicShop">
+      <UniqueIdentifier>{10d01ad9-2d17-4248-a0a6-82bea2204cd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\CStringHelper.h">
+      <Filter>Header Files\GameStuff\Helpers\StringHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\MemoryHelper.h">
+      <Filter>Header Files\GameStuff\Helpers\MemoryHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain\GameMain.h">
+      <Filter>Header Files\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files\Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\MemPoolManager.h">
+      <Filter>Header Files\Network\MemoryPoolManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\MemPool.h">
+      <Filter>Header Files\Network\MemoryPoolManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\MsgStreamBuffer.h">
+      <Filter>Header Files\Network\MsgStreamBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetCustoms.h">
+      <Filter>Header Files\Network\NetCustoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\MsgHandler.h">
+      <Filter>Header Files\Network\MessageHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\md5.h">
+      <Filter>Header Files\GameStuff\Helpers\Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\HWIDManager\RegistryManager.h">
+      <Filter>Header Files\GameFeatures\HWIDManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\HWIDManager\HWIDManager.h">
+      <Filter>Header Files\GameFeatures\HWIDManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Character\Character.h">
+      <Filter>Header Files\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Random.h">
+      <Filter>Header Files\GameStuff\Helpers\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\D3DMisc.h">
+      <Filter>Header Files\D3DEngine\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\D3DEngine.h">
+      <Filter>Header Files\D3DEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\detours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\ResourceManager.h">
+      <Filter>Header Files\D3DEngine\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\Helpers\CustomButton.h">
+      <Filter>Header Files\D3DEngine\GUIs\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GameCommonHooks.h">
+      <Filter>Header Files\D3DEngine\Hooks\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GameInputHooks.h">
+      <Filter>Header Files\D3DEngine\Hooks\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CICPlayer\CICPlayer.h">
+      <Filter>Header Files\GameStuff\CICPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\IconWindow.h">
+      <Filter>Header Files\D3DEngine\GUIs\IconWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\ChestWindow.h">
+      <Filter>Header Files\D3DEngine\GUIs\ChestWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\Helpers\CustomLabel.h">
+      <Filter>Header Files\D3DEngine\GUIs\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\SoundManager\CGEffSoundBody.h">
+      <Filter>Header Files\GameFeatures\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\GlobalDataManager\GlobalDataManager.h">
+      <Filter>Header Files\GameStuff\GlobalDataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\Discord.h">
+      <Filter>Header Files\Discord_SDK\Addon</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\PHBotManager\PHBotManager.h">
+      <Filter>Header Files\GameFeatures\PHBotManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\ChatManager\ChatManager.h">
+      <Filter>Header Files\GameFeatures\ChatManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\CGInterface.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\GameColors\GameColors.h">
+      <Filter>Header Files\GameFeatures\GameColors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\GlobalDataManager\TextStringManager.h">
+      <Filter>Header Files\GameStuff\GlobalDataManager\TextStringManager</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\Pandora\SplashScreen.h">
+      <Filter>Header Files\D3DEngine\GUIs\Pandora\SplashScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\Pandora\MainMenuWindow.h">
+      <Filter>Header Files\D3DEngine\GUIs\Pandora\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\TitleManager.h">
+      <Filter>Header Files\D3DEngine\GUIs\TitleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Character\Spawn\CharacterSpawn.h">
+      <Filter>Header Files\Character\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\DPSMeterWindow.h">
+      <Filter>Header Files\D3DEngine\GUIs\DPSMeter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\GlobalItemLinking\GlobalItemLinking.h">
+      <Filter>Header Files\GameFeatures\GlobalItemLinking</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\WndProc.h">
+      <Filter>Header Files\D3DEngine\Hooks\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\IFEquipment.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\IFHelperBubbleWindow.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\IFInventory.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\IFMainPopup.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\CSOItem.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\CObjectData.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\IFSlotWithHelp.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\UniqueStatus.h">
+      <Filter>Header Files\D3DEngine\GUIs\UniqueStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\Top5KillCounter.h">
+      <Filter>Header Files\D3DEngine\GUIs\KillCounters</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\Top5FTWKillCounter.h">
+      <Filter>Header Files\D3DEngine\GUIs\KillCounters</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\CharacterIcons\CharacterIcons.h">
+      <Filter>Header Files\GameFeatures\CharacterIcons</Filter>
+    </ClInclude>
+    <ClInclude Include="Licensing\LicenseManager.h">
+      <Filter>Header Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\GrantNameWindow.h">
+      <Filter>Header Files\D3DEngine\GUIs\GrantNameWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CharacterDependentData\CharacterDependentData.h">
+      <Filter>Header Files\GameStuff\CharacterDependentData</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\CustomTitleWindow.h">
+      <Filter>Header Files\D3DEngine\GUIs\CustomTitleWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientCommonSettings\ClientCommonSettings.h">
+      <Filter>Header Files\D3DEngine\GUIs\Pandora\ClientCommonSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="Emojis\Emojis.h">
+      <Filter>Header Files\Emojis</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\OldThreeJob\OldThreeJob.h">
+      <Filter>Header Files\GameFeatures\OldThreeJob</Filter>
+    </ClInclude>
+    <ClInclude Include="SilkroadWeb\SilkroadWeb.h">
+      <Filter>Header Files\SilkroadWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\RankingWindow.h">
+      <Filter>Header Files\D3DEngine\GUIs\RankingWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\EventManager.h">
+      <Filter>Header Files\D3DEngine\GUIs\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\IFItemMall.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldItemMall\OldItemMall.h">
+      <Filter>Header Files\GameFeatures\OldItemMall</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\IFMinimap.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\InterfaceActions\InterfaceActions.h">
+      <Filter>Header Files\GameStuff\InterfaceActions</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CGInterface\IFMessageBox.h">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\ParamRare\CParamRare.h">
+      <Filter>Header Files\GameFeatures\ParamRare</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldAlchemy\OldAlchemy.h">
+      <Filter>Header Files\GameFeatures\OldAlchemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldLoginScreen\Vec3.h">
+      <Filter>Header Files\GameFeatures\OldLoginScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldLoginScreen\address_helper.h">
+      <Filter>Header Files\GameFeatures\OldLoginScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldLoginScreen\char_select.h">
+      <Filter>Header Files\GameFeatures\OldLoginScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldLoginScreen\Character3D.h">
+      <Filter>Header Files\GameFeatures\OldLoginScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldLoginScreen\Keyframe.h">
+      <Filter>Header Files\GameFeatures\OldLoginScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldLoginScreen\static_constructor.h">
+      <Filter>Header Files\GameFeatures\OldLoginScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldExpBar\CNIFUnderMenuBar.h">
+      <Filter>Header Files\GameFeatures\OldExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldExpBar\CNIFWnd.h">
+      <Filter>Header Files\GameFeatures\OldExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldExpBar\CNIFGauge.h">
+      <Filter>Header Files\GameFeatures\OldExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeatures\OldExpBar\CNIFStatic.h">
+      <Filter>Header Files\GameFeatures\OldExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="WebManager\WebManager.h">
+      <Filter>Header Files\WebManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStuff\CNIRMManager\CNIRMManager.h">
+      <Filter>Header Files\GameStuff\CNIRMManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IFItemComparison.h">
+      <Filter>Header Files\GameFeatures\ItemCompare</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\EventTimesWindow.h">
+      <Filter>Header Files\D3DEngine\GUIs\EventTimesWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\AccountLockedWindow.h">
+      <Filter>Header Files\D3DEngine\GUIs\LockSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\AccountLockWindow.h">
+      <Filter>Header Files\D3DEngine\GUIs\LockSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEngine\GUIs\DynamicShop.h">
+      <Filter>Header Files\D3DEngine\GUIs\DynamicShop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wFilterLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\CStringHelper.cpp">
+      <Filter>Header Files\GameStuff\Helpers\StringHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\MemoryHelper.cpp">
+      <Filter>Header Files\GameStuff\Helpers\MemoryHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain\GameMain.cpp">
+      <Filter>Header Files\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\MemPoolManager.cpp">
+      <Filter>Header Files\Network\MemoryPoolManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\MsgStreamBuffer.cpp">
+      <Filter>Header Files\Network\MsgStreamBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetCustoms.cpp">
+      <Filter>Header Files\Network\NetCustoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\MsgHandler.cpp">
+      <Filter>Header Files\Network\MessageHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\md5.cpp">
+      <Filter>Header Files\GameStuff\Helpers\Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\HWIDManager\HWIDManager.cpp">
+      <Filter>Header Files\GameFeatures\HWIDManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Character\Character.cpp">
+      <Filter>Header Files\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\D3DMisc.cpp">
+      <Filter>Header Files\D3DEngine\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\D3DEngine.cpp">
+      <Filter>Header Files\D3DEngine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\ResourceManager.cpp">
+      <Filter>Header Files\D3DEngine\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\Helpers\CustomButton.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GameCommonHooks.cpp">
+      <Filter>Header Files\D3DEngine\Hooks\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GameInputHooks.cpp">
+      <Filter>Header Files\D3DEngine\Hooks\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CICPlayer\CICPlayer.cpp">
+      <Filter>Header Files\GameStuff\CICPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\IconWindow.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\IconWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\ChestWindow.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\ChestWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\Helpers\CustomLabel.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\SoundManager\CGEffSoundBody.cpp">
+      <Filter>Header Files\GameFeatures\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\GlobalDataManager\GlobalDataManager.cpp">
+      <Filter>Header Files\GameStuff\GlobalDataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\Discord.cpp">
+      <Filter>Header Files\Discord_SDK\Addon</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\PHBotManager\PHBotManager.cpp">
+      <Filter>Header Files\GameFeatures\PHBotManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\ChatManager\ChatManager.cpp">
+      <Filter>Header Files\GameFeatures\ChatManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CGInterface\CGInterface.cpp">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\GameColors\GameColors.cpp">
+      <Filter>Header Files\GameFeatures\GameColors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\GlobalDataManager\TextStringManager.cpp">
+      <Filter>Header Files\GameStuff\GlobalDataManager\TextStringManager</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\Pandora\SplashScreen.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\Pandora\SplashScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\Pandora\MainMenuWindow.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\Pandora\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\TitleManager.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\TitleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Character\Spawn\CharacterSpawn.cpp">
+      <Filter>Header Files\Character\Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\DPSMeterWindow.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\DPSMeter</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\GlobalItemLinking\GlobalItemLinking.cpp">
+      <Filter>Header Files\GameFeatures\GlobalItemLinking</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\WndProc.cpp">
+      <Filter>Header Files\D3DEngine\Hooks\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CGInterface\IFEquipment.cpp">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CGInterface\IFHelperBubbleWindow.cpp">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CGInterface\IFInventory.cpp">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CGInterface\IFMainPopup.cpp">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CGInterface\CSOItem.cpp">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CGInterface\IFSlotWithHelp.cpp">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\UniqueStatus.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\UniqueStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\Top5KillCounter.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\KillCounters</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\Top5FTWKillCounter.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\KillCounters</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\CharacterIcons\CharacterIcons.cpp">
+      <Filter>Header Files\GameFeatures\CharacterIcons</Filter>
+    </ClCompile>
+    <ClCompile Include="Licensing\LicenseManager.cpp">
+      <Filter>Header Files\Licensing</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\GrantNameWindow.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\GrantNameWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CharacterDependentData\CharacterDependentData.cpp">
+      <Filter>Header Files\GameStuff\CharacterDependentData</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\CustomTitleWindow.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\CustomTitleWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientCommonSettings\ClientCommonSettings.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\Pandora\ClientCommonSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\OldThreeJob\OldThreeJob.cpp">
+      <Filter>Header Files\GameFeatures\OldThreeJob</Filter>
+    </ClCompile>
+    <ClCompile Include="SilkroadWeb\SilkroadWeb.cpp">
+      <Filter>Header Files\SilkroadWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\RankingWindow.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\RankingWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\EventManager.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\OldItemMall\OldItemMall.cpp">
+      <Filter>Header Files\GameFeatures\OldItemMall</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CGInterface\IFMinimap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\InterfaceActions\InterfaceActions.cpp">
+      <Filter>Header Files\GameStuff\InterfaceActions</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CGInterface\IFMessageBox.cpp">
+      <Filter>Header Files\GameStuff\CGInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\ParamRare\CParamRare.cpp">
+      <Filter>Header Files\GameFeatures\ParamRare</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\OldAlchemy\OldAlchemy.cpp">
+      <Filter>Header Files\GameFeatures\OldAlchemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\OldLoginScreen\char_select.cpp">
+      <Filter>Header Files\GameFeatures\OldLoginScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\OldLoginScreen\static_constructor.cpp">
+      <Filter>Header Files\GameFeatures\OldLoginScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeatures\OldExpBar\CNIFUnderMenuBar.cpp">
+      <Filter>Header Files\GameFeatures\OldExpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="WebManager\WebManager.cpp">
+      <Filter>Header Files\WebManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStuff\CNIRMManager\CNIRMManager.cpp">
+      <Filter>Header Files\GameStuff\CNIRMManager</Filter>
+    </ClCompile>
+    <ClCompile Include="IFItemComparison.cpp">
+      <Filter>Header Files\GameFeatures\ItemCompare</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\EventTimesWindow.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\EventTimesWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\AccountLockedWindow.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\LockSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\AccountLockWindow.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\LockSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEngine\GUIs\DynamicShop.cpp">
+      <Filter>Header Files\D3DEngine\GUIs\DynamicShop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QProxyLib.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Menu_Icons\chest_icon.png">
+      <Filter>Resource Files\Menu_Icons</Filter>
+    </Image>
+    <Image Include="Resources\Menu_Icons\chest_icon_hover.png">
+      <Filter>Resource Files\Menu_Icons</Filter>
+    </Image>
+    <Image Include="Resources\Form\bottom_centerdata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Form\com_windowclose_focusdata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Form\com_windowclose_pressdata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Form\com_windowclosedata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Form\contentdata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Form\left_borderdata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Form\left_bottom_begindata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Form\left_up_borderdata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Form\right_borderdata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Form\right_bottom_enddata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Form\right_up_borderdata.png">
+      <Filter>Resource Files\Form</Filter>
+    </Image>
+    <Image Include="Resources\Panel\com_bg_tile_cdata.png">
+      <Filter>Resource Files\Panel</Filter>
+    </Image>
+    <Image Include="Resources\Panel\ub_pet_wnd_left_downdata.png">
+      <Filter>Resource Files\Panel</Filter>
+    </Image>
+    <Image Include="Resources\Panel\ub_pet_wnd_left_sidedata.png">
+      <Filter>Resource Files\Panel</Filter>
+    </Image>
+    <Image Include="Resources\Panel\ub_pet_wnd_left_updata.png">
+      <Filter>Resource Files\Panel</Filter>
+    </Image>
+    <Image Include="Resources\Panel\ub_pet_wnd_mid_downdata.png">
+      <Filter>Resource Files\Panel</Filter>
+    </Image>
+    <Image Include="Resources\Panel\ub_pet_wnd_mid_updata.png">
+      <Filter>Resource Files\Panel</Filter>
+    </Image>
+    <Image Include="Resources\Panel\ub_pet_wnd_right_downdata.png">
+      <Filter>Resource Files\Panel</Filter>
+    </Image>
+    <Image Include="Resources\Panel\ub_pet_wnd_right_sidedata.png">
+      <Filter>Resource Files\Panel</Filter>
+    </Image>
+    <Image Include="Resources\Panel\ub_pet_wnd_right_updata.png">
+      <Filter>Resource Files\Panel</Filter>
+    </Image>
+    <Image Include="Resources\Form\up_centerdata.png">
+      <Filter>Resource Files\Panel</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_rightdata.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_center_focusdata.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_centerdata.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_left_focusdata.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_leftdata.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_right_focusdata.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Chest\items_tab_header.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\Chest\button_take.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\Chest\button_takeall.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\Chest\items_tab.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\Pandora\pandora_bg.png">
+      <Filter>Resource Files\Pandora</Filter>
+    </Image>
+    <Image Include="Resources\Chest\button_take_hover.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\Chest\button_take_normal.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\Chest\button_take_press.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\Chest\chest_button_take.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\Chest\chest_button_take_hover.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\Chest\chest_button_take_press.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\Chest\chest_content.png">
+      <Filter>Resource Files\Chest</Filter>
+    </Image>
+    <Image Include="Resources\ScrollBar\com_scroll_button_focus_data.png">
+      <Filter>Resource Files\ScrollBar</Filter>
+    </Image>
+    <Image Include="Resources\ScrollBar\com_scroll_arrow_down_data.png">
+      <Filter>Resource Files\ScrollBar</Filter>
+    </Image>
+    <Image Include="Resources\ScrollBar\com_scroll_arrow_down_focus_data.png">
+      <Filter>Resource Files\ScrollBar</Filter>
+    </Image>
+    <Image Include="Resources\ScrollBar\com_scroll_arrow_up_data.png">
+      <Filter>Resource Files\ScrollBar</Filter>
+    </Image>
+    <Image Include="Resources\ScrollBar\com_scroll_arrow_up_focus_data.png">
+      <Filter>Resource Files\ScrollBar</Filter>
+    </Image>
+    <Image Include="Resources\ScrollBar\com_scroll_bar_bg_data.png">
+      <Filter>Resource Files\ScrollBar</Filter>
+    </Image>
+    <Image Include="Resources\ScrollBar\com_scroll_button_data.png">
+      <Filter>Resource Files\ScrollBar</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\com_left_arrow.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\com_left_arrow_disable.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\com_left_arrow_focus.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\com_left_arrow_press.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\com_right_arrow.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\com_right_arrow_disable.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\com_right_arrow_focus.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\com_right_arrow_press.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\paginator_bg.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Menu\menu_bg.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\close_button.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\close_button_hover.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\close_button_press.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\title_manager_button_press.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\title_manager_button.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\title_manager_button_hover.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\unique_status_button_press.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\unique_status_button.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\unique_status_button_hover.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\event_manager_button_press.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\event_manager_button.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\event_manager_button_hover.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\grant_name_button_press.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\grant_name_button.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\grant_name_button_hover.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\custom_title_button_press.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\custom_title_button.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\custom_title_button_hover.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\ranking_button.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\ranking_button_hover.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\Menu\ranking_button_press.png">
+      <Filter>Resource Files\Menu</Filter>
+    </Image>
+    <Image Include="Resources\TitleManager\TitleStorage_bg.png">
+      <Filter>Resource Files\TitleManager</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_use_title_press.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_use_title.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_use_title_hover.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_press.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_disabled.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\com_button_hover.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\DPSMeter\dps_meter_bg.png">
+      <Filter>Resource Files\DPS Meter</Filter>
+    </Image>
+    <Image Include="Resources\UniqueStatus\unique_status_head.png">
+      <Filter>Resource Files\UniqueStatus</Filter>
+    </Image>
+    <Image Include="Resources\KillCounters\top5_counter.png">
+      <Filter>Resource Files\KillCounters</Filter>
+    </Image>
+    <Image Include="Resources\KillCounters\Fortress\fw_counter.png">
+      <Filter>Resource Files\KillCounters\Fortress</Filter>
+    </Image>
+    <Image Include="Resources\KillCounters\Fortress\guild1.png">
+      <Filter>Resource Files\KillCounters\Fortress</Filter>
+    </Image>
+    <Image Include="Resources\KillCounters\Fortress\guild2.png">
+      <Filter>Resource Files\KillCounters\Fortress</Filter>
+    </Image>
+    <Image Include="Resources\KillCounters\Fortress\guild3.png">
+      <Filter>Resource Files\KillCounters\Fortress</Filter>
+    </Image>
+    <Image Include="Resources\KillCounters\Fortress\player1.png">
+      <Filter>Resource Files\KillCounters\Fortress</Filter>
+    </Image>
+    <Image Include="Resources\KillCounters\Fortress\player2.png">
+      <Filter>Resource Files\KillCounters\Fortress</Filter>
+    </Image>
+    <Image Include="Resources\KillCounters\Fortress\player3.png">
+      <Filter>Resource Files\KillCounters\Fortress</Filter>
+    </Image>
+    <Image Include="Resources\TextBox\custom_textbox.png">
+      <Filter>Resource Files\TextBox</Filter>
+    </Image>
+    <Image Include="Resources\CustomButtons\change_button_press.png">
+      <Filter>Resource Files\CustomButtons</Filter>
+    </Image>
+    <Image Include="Resources\CustomButtons\cancel_button.png">
+      <Filter>Resource Files\CustomButtons</Filter>
+    </Image>
+    <Image Include="Resources\CustomButtons\cancel_button_hover.png">
+      <Filter>Resource Files\CustomButtons</Filter>
+    </Image>
+    <Image Include="Resources\CustomButtons\cancel_button_press.png">
+      <Filter>Resource Files\CustomButtons</Filter>
+    </Image>
+    <Image Include="Resources\CustomButtons\change_button.png">
+      <Filter>Resource Files\CustomButtons</Filter>
+    </Image>
+    <Image Include="Resources\CustomButtons\change_button_hover.png">
+      <Filter>Resource Files\CustomButtons</Filter>
+    </Image>
+    <Image Include="Resources\CustomBackgrounds\title_bg.png">
+      <Filter>Resource Files\CustomBackgrounds</Filter>
+    </Image>
+    <Image Include="Resources\CustomBackgrounds\grant_bg.png">
+      <Filter>Resource Files\CustomBackgrounds</Filter>
+    </Image>
+    <Image Include="Resources\CustomFrame\top_image_bg.png">
+      <Filter>Resource Files\CustomFrame</Filter>
+    </Image>
+    <Image Include="Resources\CustomFrame\top_image_close_button.png">
+      <Filter>Resource Files\CustomFrame</Filter>
+    </Image>
+    <Image Include="Resources\CustomFrame\top_image_close_button_hover.png">
+      <Filter>Resource Files\CustomFrame</Filter>
+    </Image>
+    <Image Include="Resources\CustomFrame\top_image_close_button_press.png">
+      <Filter>Resource Files\CustomFrame</Filter>
+    </Image>
+    <Image Include="Resources\EventManager\event_manager_bg.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="Resources\EventManager\btn_new_cancel.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="Resources\EventManager\btn_new_cancel_disabled.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="Resources\EventManager\btn_new_cancel_hover.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="Resources\EventManager\btn_new_cancel_press.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="Resources\EventManager\btn_new_register.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="Resources\EventManager\btn_new_register_disabled.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="Resources\EventManager\btn_new_register_hover.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="Resources\EventManager\btn_new_register_press.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="Resources\UniqueStatus\unique_status_bg.png">
+      <Filter>Resource Files\UniqueStatus</Filter>
+    </Image>
+    <Image Include="Resources\UniqueStatus\btn_reload_press.png">
+      <Filter>Resource Files\UniqueStatus</Filter>
+    </Image>
+    <Image Include="Resources\UniqueStatus\btn_reload_hover.png">
+      <Filter>Resource Files\UniqueStatus</Filter>
+    </Image>
+    <Image Include="Resources\UniqueStatus\btn_reload.png">
+      <Filter>Resource Files\UniqueStatus</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\btn_pagination_right.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\btn_pagination_left.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\btn_pagination_right_press.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\btn_pagination_left_hover.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\btn_pagination_left_press.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="Resources\Paginator\btn_pagination_right_hover.png">
+      <Filter>Resource Files\Paginator</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_survival_event_press.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_crew_event.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_crew_event_hover.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_crew_event_press.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_lms_event.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_lms_event_hover.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_lms_event_press.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_madness_event.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_madness_event_hover.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_madness_event_press.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_perennial_event.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_perennial_event_hover.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_perennial_event_press.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_survival_event.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Event\btn_survival_event_hover.png">
+      <Filter>Resource Files\EventManager</Filter>
+    </Image>
+    <Image Include="Resources\Menu_Icons\menu_icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Menu_Icons\menu_icon_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_crew_event.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_crew_event_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_crew_event_press.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_lms_event.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_lms_event_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_lms_event_press.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_madness_event.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_madness_event_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_madness_event_press.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_perennial_event.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_perennial_event_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_perennial_event_press.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_survival_event.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_survival_event_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Event\btn_survival_event_press.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Menu_Icons\discord_icon.png">
+      <Filter>Resource Files\Menu_Icons</Filter>
+    </Image>
+    <Image Include="Resources\Menu_Icons\discord_icon_hover.png">
+      <Filter>Resource Files\Menu_Icons</Filter>
+    </Image>
+    <Image Include="Resources\Menu_Icons\facebook_foucs.png">
+      <Filter>Resource Files\Menu_Icons</Filter>
+    </Image>
+    <Image Include="Resources\Menu_Icons\facebook_icon_hover.png">
+      <Filter>Resource Files\Menu_Icons</Filter>
+    </Image>
+    <Image Include="Resources\EventTimes\bg_area.png">
+      <Filter>Resource Files\EventTimes</Filter>
+    </Image>
+    <Image Include="bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\EventTimes\event_times_bg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Anoha\facebookguide.PNG">
+      <Filter>Resource Files\Anoha</Filter>
+    </Image>
+    <Image Include="Resources\Anoha\facebookguide_focus.PNG">
+      <Filter>Resource Files\Anoha</Filter>
+    </Image>
+    <Image Include="Resources\Anoha\facebookguide_press.PNG">
+      <Filter>Resource Files\Anoha</Filter>
+    </Image>
+    <Image Include="Resources\Anoha\menu.PNG">
+      <Filter>Resource Files\Anoha</Filter>
+    </Image>
+    <Image Include="Resources\Anoha\menu_focus.PNG">
+      <Filter>Resource Files\Anoha</Filter>
+    </Image>
+    <Image Include="Resources\Anoha\menu_press.PNG">
+      <Filter>Resource Files\Anoha</Filter>
+    </Image>
+    <Image Include="Resources\Anoha\discordguide_press.PNG">
+      <Filter>Resource Files\Anoha</Filter>
+    </Image>
+    <Image Include="Resources\Anoha\discordguide_focus.PNG">
+      <Filter>Resource Files\Anoha</Filter>
+    </Image>
+    <Image Include="Resources\Anoha\discordguide.PNG">
+      <Filter>Resource Files\Anoha</Filter>
+    </Image>
+    <Image Include="Resources\LockSystem\AccountLocked_bg.png">
+      <Filter>Resource Files\LockSystem</Filter>
+    </Image>
+    <Image Include="Resources\CheckBox\checkbox_checked.png">
+      <Filter>Resource Files\CheckBox</Filter>
+    </Image>
+    <Image Include="Resources\CheckBox\checkbox_unchecked.png">
+      <Filter>Resource Files\CheckBox</Filter>
+    </Image>
+    <Image Include="Resources\LockSystem\AccountLock.png">
+      <Filter>Resource Files\LockSystem</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\customTitle_btn.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\customTitle_btn_hover.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\customTitle_btn_press.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\discord_btn.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\discord_btn_hover.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\discord_btn_press.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\eventTimes_btn.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\eventTimes_btn_hover.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\eventTimes_btn_press.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\facebook_btn.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\facebook_btn_hover.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\facebook_btn_press.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\grantName_btn.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\grantName_btn_hover.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\grantName_btn_press.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\title.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\titleManager_btn.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\titleManager_btn_hover.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\titleManager_btn_press.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\uniqueStatus_btn.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\uniqueStatus_btn_hover.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\uniqueStatus_btn_press.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\website_btn.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\website_btn_hover.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\website_btn_press.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\newMenu_bg.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\com_new.PNG">
+      <Filter>Resource Files\interface\ifcommon</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\com_new_tab_disable_left.PNG">
+      <Filter>Resource Files\interface\ifcommon</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\com_new_tab_disable_mid.PNG">
+      <Filter>Resource Files\interface\ifcommon</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\com_new_tab_disable_right.PNG">
+      <Filter>Resource Files\interface\ifcommon</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\com_new_tab_off_left.PNG">
+      <Filter>Resource Files\interface\ifcommon</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\com_new_tab_off_mid.PNG">
+      <Filter>Resource Files\interface\ifcommon</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\com_new_tab_off_right.PNG">
+      <Filter>Resource Files\interface\ifcommon</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\com_new_tab_on_left.PNG">
+      <Filter>Resource Files\interface\ifcommon</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\com_new_tab_on_mid.PNG">
+      <Filter>Resource Files\interface\ifcommon</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\com_new_tab_on_right.PNG">
+      <Filter>Resource Files\interface\ifcommon</Filter>
+    </Image>
+    <Image Include="Resources\interface\ifcommon\bg_tile\com_bg_tile_m.png">
+      <Filter>Resource Files\interface\ifcommon\bg_tile</Filter>
+    </Image>
+    <Image Include="Resources\interface\frame\frame_g_action_left_down.png">
+      <Filter>Resource Files\interface\frame</Filter>
+    </Image>
+    <Image Include="Resources\interface\frame\frame_g_action_left_side.png">
+      <Filter>Resource Files\interface\frame</Filter>
+    </Image>
+    <Image Include="Resources\interface\frame\frame_g_action_left_up.png">
+      <Filter>Resource Files\interface\frame</Filter>
+    </Image>
+    <Image Include="Resources\interface\frame\frame_g_action_mid_down.png">
+      <Filter>Resource Files\interface\frame</Filter>
+    </Image>
+    <Image Include="Resources\interface\frame\frame_g_action_mid_up.png">
+      <Filter>Resource Files\interface\frame</Filter>
+    </Image>
+    <Image Include="Resources\interface\frame\frame_g_action_right_down.png">
+      <Filter>Resource Files\interface\frame</Filter>
+    </Image>
+    <Image Include="Resources\interface\frame\frame_g_action_right_side.png">
+      <Filter>Resource Files\interface\frame</Filter>
+    </Image>
+    <Image Include="Resources\interface\frame\frame_g_action_right_up.png">
+      <Filter>Resource Files\interface\frame</Filter>
+    </Image>
+    <Image Include="Resources\DynamicShop\titles_bar.png">
+      <Filter>Resource Files\DynamicShop</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\customTitle_btn_disable.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\discord_btn_disable.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\dynamicShop_btn.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\dynamicShop_btn_disable.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\dynamicShop_btn_hover.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\dynamicShop_btn_press.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\eventTimes_btn_disable.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\facebook_btn_disable.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\grantName_btn_disable.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\titleManager_btn_disable.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\uniqueStatus_btn_disable.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+    <Image Include="Resources\NewLook\website_btn_disable.png">
+      <Filter>Resource Files\NewLook</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

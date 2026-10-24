@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Redistributable">
+      <UniqueIdentifier>{6ab9b0c1-062c-496b-a213-fdc650856069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{a62d1daf-cadc-43aa-8e48-6e1b03de5bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Customs">
+      <UniqueIdentifier>{54d0b0bc-b207-4726-9e4a-e68fe5487380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Database">
+      <UniqueIdentifier>{5e0763bd-865a-45df-9ce5-a4ca9f26502e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DebugHelp">
+      <UniqueIdentifier>{992611cf-3069-4a76-b8c6-946d963f71b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{7407a8a8-fd23-428d-895e-cd24d79c504a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RefData">
+      <UniqueIdentifier>{b63d07e7-ed1a-4921-a5e7-b00b2fdb9309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{4c6bf043-9d18-4865-984e-bf202b3d4fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Database\DBSets">
+      <UniqueIdentifier>{0203f7a0-97d3-4713-9f47-54952484e257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Redistributable\Config">
+      <UniqueIdentifier>{18ed1bfc-47ea-420a-a7ad-761aefa2187d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Redistributable\Database">
+      <UniqueIdentifier>{30bcc7a3-b0ec-4b05-b7b4-90a86de18fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Research">
+      <UniqueIdentifier>{cca91769-b96b-414d-8f63-4869a37f8d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{d0cab5ac-0234-41d5-bd88-c3a257dc6bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine">
+      <UniqueIdentifier>{fd56473e-15e2-4e22-a91c-18807810100c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Storage">
+      <UniqueIdentifier>{ac718dd8-8770-4256-9982-d5391de09898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Item">
+      <UniqueIdentifier>{585f80b7-110f-4d7c-b0fa-d00df734446e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Database">
+      <UniqueIdentifier>{45f04871-878c-4685-b984-1e5d90a88a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Job">
+      <UniqueIdentifier>{f26e20b3-828e-4d06-b9fa-17c5b366c7f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Market">
+      <UniqueIdentifier>{a99a186d-9269-4164-97f4-b646f13cfab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Memory">
+      <UniqueIdentifier>{6af8d299-5d8a-46e7-b8dd-d3a720a23ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Monster">
+      <UniqueIdentifier>{1a2ccb15-05be-41e6-8287-5a1b9e7518b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Object">
+      <UniqueIdentifier>{329ca033-212d-495c-955f-2bbb41070cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Other">
+      <UniqueIdentifier>{890fc9c0-c88e-4706-9275-4570867c7ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Player">
+      <UniqueIdentifier>{7ff8a1af-0325-461d-8ba8-f5ec4f072112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Quest">
+      <UniqueIdentifier>{081493d2-ca1c-4453-9dfe-782bb13226c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Spawn">
+      <UniqueIdentifier>{0af3599f-722a-45c2-b862-6479f9981dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\Alcheny">
+      <UniqueIdentifier>{2cc9bb30-64e8-446a-8d03-283900a7534a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine\GameWorld">
+      <UniqueIdentifier>{f4677ec2-6bb3-44dd-967f-d7cc1e7059d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoCriticalSection.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigMgr.h">
+      <Filter>Source Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DbTriggerActions.h">
+      <Filter>Source Files\Customs</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionRestrictionMgr.h">
+      <Filter>Source Files\Customs</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticPatches.h">
+      <Filter>Source Files\Customs</Filter>
+    </ClInclude>
+    <ClInclude Include="DbTriggerActionDBSet.h">
+      <Filter>Source Files\Database\DBSets</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscDBSet.h">
+      <Filter>Source Files\Database\DBSets</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsDBSet.h">
+      <Filter>Source Files\Database\DBSets</Filter>
+    </ClInclude>
+    <ClInclude Include="DbConnection.h">
+      <Filter>Source Files\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="DbMgr.h">
+      <Filter>Source Files\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="GObjChar.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GObjPC.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="IGObj.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Param.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RefObjPC.h">
+      <Filter>Source Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RefDataManager.h">
+      <Filter>Source Files\RefData</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryUtility.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RemodelUtility.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionRestrictionDBSet.h">
+      <Filter>Source Files\Database\DBSets</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageMeter.h">
+      <Filter>Source Files\Customs</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgStreamBuffer.h">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterContentDBSet.h">
+      <Filter>Source Files\Database\DBSets</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProcess.h">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CGStorage.h">
+      <Filter>Source Files\GameEngine\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="CGItem.h">
+      <Filter>Source Files\GameEngine\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CInstanceChestInfo.h">
+      <Filter>Source Files\GameEngine\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CInstanceClientConfig.h">
+      <Filter>Source Files\GameEngine\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CInstanceItem.h">
+      <Filter>Source Files\GameEngine\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CInstancePC.h">
+      <Filter>Source Files\GameEngine\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetMagicOptionOP.h">
+      <Filter>Source Files\GameEngine\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CSocketOptionOP.h">
+      <Filter>Source Files\GameEngine\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CDBTable.h">
+      <Filter>Source Files\GameEngine\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="CRefObjItem.h">
+      <Filter>Source Files\GameEngine\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CInstanceCharTrijob.h">
+      <Filter>Source Files\GameEngine\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenMarketAgent.h">
+      <Filter>Source Files\GameEngine\Market</Filter>
+    </ClInclude>
+    <ClInclude Include="UnkHeap.h">
+      <Filter>Source Files\GameEngine\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="CZoeZoeRnd.h">
+      <Filter>Source Files\GameEngine\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CBase.h">
+      <Filter>Source Files\GameEngine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CGObjPC_VTable.h">
+      <Filter>Source Files\GameEngine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CQue_CGObjPC.h">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CAsyncJobMgr.h">
+      <Filter>Source Files\GameEngine\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="CClassLink_CGObjChar.h">
+      <Filter>Source Files\GameEngine\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventHandlers.h">
+      <Filter>Source Files\GameEngine\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="CMessenger.h">
+      <Filter>Source Files\GameEngine\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="WMGR.h">
+      <Filter>Source Files\GameEngine\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="RefObjChar.h">
+      <Filter>Source Files\GameEngine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CGCharAutoCommandActor.h">
+      <Filter>Source Files\GameEngine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CGCharAutoNavigator.h">
+      <Filter>Source Files\GameEngine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="sGCharAbnormalStatus.h">
+      <Filter>Source Files\GameEngine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CGObjPC_QuestManager.h">
+      <Filter>Source Files\GameEngine\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="CGObjPC_SpotManager.h">
+      <Filter>Source Files\GameEngine\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="CInstanceStaticAvatar.h">
+      <Filter>Source Files\GameEngine\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CAlchemyMagicOptionOP.h">
+      <Filter>Source Files\GameEngine\Alcheny</Filter>
+    </ClInclude>
+    <ClInclude Include="CDefaultWorldContextController.h">
+      <Filter>Source Files\GameEngine\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameWorld_Default.h">
+      <Filter>Source Files\GameEngine\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="CRTNavCellQuad.h">
+      <Filter>Source Files\GameEngine\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorldContext.h">
+      <Filter>Source Files\GameEngine\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorldContextEX.h">
+      <Filter>Source Files\GameEngine\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugHelper.h">
+      <Filter>Source Files\DebugHelp</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoCriticalSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigMgr.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="DbTriggerActions.cpp">
+      <Filter>Source Files\Customs</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticPatches.cpp">
+      <Filter>Source Files\Customs</Filter>
+    </ClCompile>
+    <ClCompile Include="DbTriggerActionDBSet.cpp">
+      <Filter>Source Files\Database\DBSets</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscDBSet.cpp">
+      <Filter>Source Files\Database\DBSets</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsDBSet.cpp">
+      <Filter>Source Files\Database\DBSets</Filter>
+    </ClCompile>
+    <ClCompile Include="DbConnection.cpp">
+      <Filter>Source Files\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="DbMgr.cpp">
+      <Filter>Source Files\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="GObjChar.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GObjPC.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Param.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RefDataManager.cpp">
+      <Filter>Source Files\RefData</Filter>
+    </ClCompile>
+    <ClCompile Include="IniReader.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryUtility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="RemodelUtility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionRestrictionDBSet.cpp">
+      <Filter>Source Files\Database\DBSets</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageMeter.cpp">
+      <Filter>Source Files\Customs</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgStreamBuffer.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterContentDBSet.cpp">
+      <Filter>Source Files\Database\DBSets</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProcess.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionRestrictionMgr.cpp">
+      <Filter>Source Files\Customs</Filter>
+    </ClCompile>
+    <ClCompile Include="CGStorage.cpp">
+      <Filter>Source Files\GameEngine\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="CBase.cpp">
+      <Filter>Source Files\GameEngine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugHelper.cpp">
+      <Filter>Source Files\DebugHelp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Redist\Phoenix\Academy.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\Alchemy.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\BattleArena.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\DbTriggerActions.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\Debug.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\FlagWorld.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\GameServer.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\Guild.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\Job.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\Misc.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\Monster.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\NPC.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\PK.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\Phoenix\RegionRestriction.ini">
+      <Filter>Redistributable\Config</Filter>
+    </None>
+    <None Include="Redist\SR_ADDON_DB.sql">
+      <Filter>Redistributable\Database</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Research\BackupData.txt">
+      <Filter>Research</Filter>
+    </Text>
+    <Text Include="Research\NPC - Add available interactions.txt">
+      <Filter>Research</Filter>
+    </Text>
+    <Text Include="Research\Stuff related to skill engagement.txt">
+      <Filter>Research</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

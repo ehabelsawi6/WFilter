@@ -1,0 +1,106 @@
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.csproj.AssemblyReference.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.AssemblyInfoInputs.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.AssemblyInfo.cs
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.csproj.CoreCompileInputs.cache
+D:\Development\wFilterOutPut\Debug\net6.0\wFilterV3.exe
+D:\Development\wFilterOutPut\Debug\net6.0\wFilterV3.deps.json
+D:\Development\wFilterOutPut\Debug\net6.0\wFilterV3.runtimeconfig.json
+D:\Development\wFilterOutPut\Debug\net6.0\wFilterV3.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.csproj.CopyComplete
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\refint\wFilterV3.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.genruntimeconfig.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\ref\wFilterV3.dll
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.csproj.AssemblyReference.cache
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.AssemblyInfoInputs.cache
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.AssemblyInfo.cs
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.csproj.CoreCompileInputs.cache
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.csproj.CopyComplete
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.dll
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\refint\wFilterV3.dll
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.genruntimeconfig.cache
+D:\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\ref\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.csproj.AssemblyReference.cache
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.AssemblyInfoInputs.cache
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.AssemblyInfo.cs
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.csproj.CoreCompileInputs.cache
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.csproj.CopyComplete
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\refint\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\wFilterV3.genruntimeconfig.cache
+D:\ssd drive\source\silkroad\Filters\wFilter V3\wFilterAgent\obj\Debug\net6.0\ref\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\obj\Debug\net6.0\wFilterV3.csproj.AssemblyReference.cache
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\obj\Debug\net6.0\wFilterV3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\obj\Debug\net6.0\wFilterV3.AssemblyInfoInputs.cache
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\obj\Debug\net6.0\wFilterV3.AssemblyInfo.cs
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\obj\Debug\net6.0\wFilterV3.csproj.CoreCompileInputs.cache
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\obj\Debug\net6.0\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\obj\Debug\net6.0\refint\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\obj\Debug\net6.0\wFilterV3.genruntimeconfig.cache
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\obj\Debug\net6.0\ref\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\wFilterV3.exe
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\wFilterV3.deps.json
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\wFilterV3.runtimeconfig.json
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\wFilterV3.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\Dapper.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\NLog.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\bin\Debug\net6.0\wFilterLib.dll
+D:\ssd drive\source\silkroad\Filters\wFilter Vero\wFilter\obj\Debug\net6.0\wFilterV3.csproj.Up2Date
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\wFilterV3.exe
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\wFilterV3.deps.json
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\wFilterV3.runtimeconfig.json
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\wFilterV3.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\Dapper.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\NLog.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\wFilterLib.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.csproj.AssemblyReference.cache
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.AssemblyInfoInputs.cache
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.AssemblyInfo.cs
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.csproj.CoreCompileInputs.cache
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.csproj.Up2Date
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\refint\wFilterV3.dll
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.genruntimeconfig.cache
+C:\Users\dreams-2026\Desktop\wFilter Not Edite Clean\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\ref\wFilterV3.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\wFilterV3.exe
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\wFilterV3.deps.json
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\wFilterV3.runtimeconfig.json
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\wFilterV3.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\Dapper.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\NLog.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\bin\Debug\net6.0\wFilterLib.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.AssemblyInfoInputs.cache
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.AssemblyInfo.cs
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.csproj.Up2Date
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\refint\wFilterV3.dll
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\wFilterV3.genruntimeconfig.cache
+C:\Users\Administrator\Downloads\WFilter-main\wFilter Not Edite Clean\wFilter\obj\Debug\net6.0\ref\wFilterV3.dll

@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{3363E825-81C5-4A44-9BD1-C53D357B04FC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>QProxyLib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\build\$(Configuration)\</OutDir>
+    <IncludePath>C:\Users\Sector1337\source\repos\QProxy DLL\QProxyLib\discord_sdk\include;$(DXSDK_DIR)include\;$(IncludePath);$(SolutionDir)oshgui</IncludePath>
+    <LibraryPath>C:\Users\Sector1337\source\repos\QProxy DLL\QProxyLib\discord_sdk\lib;$(DXSDK_DIR)Lib\x86\;$(SolutionDir)build\libs\debug\;$(SolutionDir)CommonLibs\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\build\$(Configuration)\</OutDir>
+    <IncludePath>$(SolutionDir)\discord_sdk\include;$(DXSDK_DIR)include\;$(IncludePath);$(SolutionDir)oshgui</IncludePath>
+    <LibraryPath>$(SolutionDir)\discord_sdk\lib;$(DXSDK_DIR)Lib\x86\;$(SolutionDir)build\libs\;$(SolutionDir)CommonLibs\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;QPROXYLIB_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <ForcedIncludeFiles>stdafx.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>discord-rpc.lib;oshgui_debug.lib;detours.lib;VMProtectSDK32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;QPROXYLIB_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>stdafx.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <AdditionalOptions>/execution-charset:utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>discord-rpc.lib;oshgui.lib;detours.lib;VMProtectSDK32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;QPROXYLIB_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Character\Character.h" />
+    <ClInclude Include="Character\Spawn\CharacterSpawn.h" />
+    <ClInclude Include="ClientCommonSettings\ClientCommonSettings.h" />
+    <ClInclude Include="D3DEngine\D3DEngine.h" />
+    <ClInclude Include="D3DEngine\D3DMisc.h" />
+    <ClInclude Include="D3DEngine\GameCommonHooks.h" />
+    <ClInclude Include="D3DEngine\GameInputHooks.h" />
+    <ClInclude Include="D3DEngine\GUIs\ChestWindow.h" />
+    <ClInclude Include="D3DEngine\GUIs\CustomTitleWindow.h" />
+    <ClInclude Include="D3DEngine\GUIs\DPSMeterWindow.h" />
+    <ClInclude Include="D3DEngine\GUIs\EventManager.h" />
+    <ClInclude Include="D3DEngine\GUIs\GrantNameWindow.h" />
+    <ClInclude Include="D3DEngine\GUIs\Helpers\CustomButton.h" />
+    <ClInclude Include="D3DEngine\GUIs\Helpers\CustomLabel.h" />
+    <ClInclude Include="D3DEngine\GUIs\IconWindow.h" />
+    <ClInclude Include="D3DEngine\GUIs\RankingWindow.h" />
+    <ClInclude Include="D3DEngine\GUIs\Pandora\MainMenuWindow.h" />
+    <ClInclude Include="D3DEngine\GUIs\Pandora\SplashScreen.h" />
+    <ClInclude Include="D3DEngine\GUIs\TitleManager.h" />
+    <ClInclude Include="D3DEngine\GUIs\Top5FTWKillCounter.h" />
+    <ClInclude Include="D3DEngine\GUIs\Top5KillCounter.h" />
+    <ClInclude Include="D3DEngine\GUIs\UniqueStatus.h" />
+    <ClInclude Include="D3DEngine\ResourceManager.h" />
+    <ClInclude Include="D3DEngine\WndProc.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Discord\Discord.h" />
+    <ClInclude Include="Emojis\Emojis.h" />
+    <ClInclude Include="GameFeatures\CharacterIcons\CharacterIcons.h" />
+    <ClInclude Include="GameFeatures\ChatManager\ChatManager.h" />
+    <ClInclude Include="GameFeatures\GameColors\GameColors.h" />
+    <ClInclude Include="GameFeatures\GlobalItemLinking\GlobalItemLinking.h" />
+    <ClInclude Include="GameFeatures\HWIDManager\HWIDManager.h" />
+    <ClInclude Include="GameFeatures\HWIDManager\RegistryManager.h" />
+    <ClInclude Include="GameFeatures\OldAlchemy\OldAlchemy.h" />
+    <ClInclude Include="GameFeatures\OldExpBar\CNIFGauge.h" />
+    <ClInclude Include="GameFeatures\OldExpBar\CNIFStatic.h" />
+    <ClInclude Include="GameFeatures\OldExpBar\CNIFUnderMenuBar.h" />
+    <ClInclude Include="GameFeatures\OldExpBar\CNIFWnd.h" />
+    <ClInclude Include="GameFeatures\OldItemMall\OldItemMall.h" />
+    <ClInclude Include="GameFeatures\OldLoginScreen\address_helper.h" />
+    <ClInclude Include="GameFeatures\OldLoginScreen\Character3D.h" />
+    <ClInclude Include="GameFeatures\OldLoginScreen\char_select.h" />
+    <ClInclude Include="GameFeatures\OldLoginScreen\Keyframe.h" />
+    <ClInclude Include="GameFeatures\OldLoginScreen\static_constructor.h" />
+    <ClInclude Include="GameFeatures\OldLoginScreen\Vec3.h" />
+    <ClInclude Include="GameFeatures\ParamRare\CParamRare.h" />
+    <ClInclude Include="GameFeatures\PHBotManager\PHBotManager.h" />
+    <ClInclude Include="GameFeatures\SoundManager\CGEffSoundBody.h" />
+    <ClInclude Include="GameMain\GameMain.h" />
+    <ClInclude Include="GameStuff\CGInterface\CGInterface.h" />
+    <ClInclude Include="GameStuff\CGInterface\CObjectData.h" />
+    <ClInclude Include="GameStuff\CGInterface\CSOItem.h" />
+    <ClInclude Include="GameStuff\CGInterface\IFEquipment.h" />
+    <ClInclude Include="GameStuff\CGInterface\IFHelperBubbleWindow.h" />
+    <ClInclude Include="GameStuff\CGInterface\IFInventory.h" />
+    <ClInclude Include="GameStuff\CGInterface\IFItemMall.h" />
+    <ClInclude Include="GameStuff\CGInterface\IFMainPopup.h" />
+    <ClInclude Include="GameStuff\CGInterface\IFMessageBox.h" />
+    <ClInclude Include="GameStuff\CGInterface\IFMinimap.h" />
+    <ClInclude Include="GameStuff\CGInterface\IFSlotWithHelp.h" />
+    <ClInclude Include="GameStuff\CharacterDependentData\CharacterDependentData.h" />
+    <ClInclude Include="GameStuff\CICPlayer\CICPlayer.h" />
+    <ClInclude Include="GameStuff\CNIRMManager\CNIRMManager.h" />
+    <ClInclude Include="GameStuff\GlobalDataManager\GlobalDataManager.h" />
+    <ClInclude Include="GameStuff\GlobalDataManager\TextStringManager.h" />
+    <ClInclude Include="GameStuff\InterfaceActions\InterfaceActions.h" />
+    <ClInclude Include="GameStuff\OldThreeJob\OldThreeJob.h" />
+    <ClInclude Include="Helpers\CStringHelper.h" />
+    <ClInclude Include="Helpers\md5.h" />
+    <ClInclude Include="Helpers\MemoryHelper.h" />
+    <ClInclude Include="Helpers\Random.h" />
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="Includes\detours.h" />
+    <ClInclude Include="Includes\includes.h" />
+    <ClInclude Include="Licensing\LicenseManager.h" />
+    <ClInclude Include="Network\MemPool.h" />
+    <ClInclude Include="Network\MemPoolManager.h" />
+    <ClInclude Include="Network\MsgHandler.h" />
+    <ClInclude Include="Network\MsgStreamBuffer.h" />
+    <ClInclude Include="Network\NetCustoms.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SilkroadWeb\SilkroadWeb.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WebManager\WebManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Character\Character.cpp" />
+    <ClCompile Include="Character\Spawn\CharacterSpawn.cpp" />
+    <ClCompile Include="ClientCommonSettings\ClientCommonSettings.cpp" />
+    <ClCompile Include="D3DEngine\D3DEngine.cpp" />
+    <ClCompile Include="D3DEngine\D3DMisc.cpp" />
+    <ClCompile Include="D3DEngine\GameCommonHooks.cpp" />
+    <ClCompile Include="D3DEngine\GameInputHooks.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\ChestWindow.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\CustomTitleWindow.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\DPSMeterWindow.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\EventManager.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\GrantNameWindow.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\Helpers\CustomButton.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\Helpers\CustomLabel.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\IconWindow.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\RankingWindow.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\Pandora\MainMenuWindow.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\Pandora\SplashScreen.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\TitleManager.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\Top5FTWKillCounter.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\Top5KillCounter.cpp" />
+    <ClCompile Include="D3DEngine\GUIs\UniqueStatus.cpp" />
+    <ClCompile Include="D3DEngine\ResourceManager.cpp" />
+    <ClCompile Include="D3DEngine\WndProc.cpp" />
+    <ClCompile Include="Discord\Discord.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="GameFeatures\CharacterIcons\CharacterIcons.cpp" />
+    <ClCompile Include="GameFeatures\ChatManager\ChatManager.cpp" />
+    <ClCompile Include="GameFeatures\GameColors\GameColors.cpp" />
+    <ClCompile Include="GameFeatures\GlobalItemLinking\GlobalItemLinking.cpp" />
+    <ClCompile Include="GameFeatures\HWIDManager\HWIDManager.cpp" />
+    <ClCompile Include="GameFeatures\OldAlchemy\OldAlchemy.cpp" />
+    <ClCompile Include="GameFeatures\OldExpBar\CNIFUnderMenuBar.cpp" />
+    <ClCompile Include="GameFeatures\OldItemMall\OldItemMall.cpp" />
+    <ClCompile Include="GameFeatures\OldLoginScreen\char_select.cpp" />
+    <ClCompile Include="GameFeatures\OldLoginScreen\static_constructor.cpp" />
+    <ClCompile Include="GameFeatures\ParamRare\CParamRare.cpp" />
+    <ClCompile Include="GameFeatures\PHBotManager\PHBotManager.cpp" />
+    <ClCompile Include="GameFeatures\SoundManager\CGEffSoundBody.cpp" />
+    <ClCompile Include="GameMain\GameMain.cpp" />
+    <ClCompile Include="GameStuff\CGInterface\CGInterface.cpp" />
+    <ClCompile Include="GameStuff\CGInterface\CSOItem.cpp" />
+    <ClCompile Include="GameStuff\CGInterface\IFEquipment.cpp" />
+    <ClCompile Include="GameStuff\CGInterface\IFHelperBubbleWindow.cpp" />
+    <ClCompile Include="GameStuff\CGInterface\IFInventory.cpp" />
+    <ClCompile Include="GameStuff\CGInterface\IFMainPopup.cpp" />
+    <ClCompile Include="GameStuff\CGInterface\IFMessageBox.cpp" />
+    <ClCompile Include="GameStuff\CGInterface\IFMinimap.cpp" />
+    <ClCompile Include="GameStuff\CGInterface\IFSlotWithHelp.cpp" />
+    <ClCompile Include="GameStuff\CharacterDependentData\CharacterDependentData.cpp" />
+    <ClCompile Include="GameStuff\CICPlayer\CICPlayer.cpp" />
+    <ClCompile Include="GameStuff\CNIRMManager\CNIRMManager.cpp" />
+    <ClCompile Include="GameStuff\GlobalDataManager\GlobalDataManager.cpp" />
+    <ClCompile Include="GameStuff\GlobalDataManager\TextStringManager.cpp" />
+    <ClCompile Include="GameStuff\InterfaceActions\InterfaceActions.cpp" />
+    <ClCompile Include="GameStuff\OldThreeJob\OldThreeJob.cpp" />
+    <ClCompile Include="Helpers\CStringHelper.cpp" />
+    <ClCompile Include="Helpers\md5.cpp" />
+    <ClCompile Include="Helpers\MemoryHelper.cpp" />
+    <ClCompile Include="Licensing\LicenseManager.cpp" />
+    <ClCompile Include="Network\MemPoolManager.cpp" />
+    <ClCompile Include="Network\MsgHandler.cpp" />
+    <ClCompile Include="Network\MsgStreamBuffer.cpp" />
+    <ClCompile Include="Network\NetCustoms.cpp" />
+    <ClCompile Include="QProxyLib.cpp" />
+    <ClCompile Include="SilkroadWeb\SilkroadWeb.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WebManager\WebManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QProxyLib.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\Event\btn_crew_event.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_crew_event_hover.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_crew_event_press.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_lms_event.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_lms_event_hover.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_lms_event_press.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_madness_event.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_madness_event_hover.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_madness_event_press.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_perennial_event.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_perennial_event_hover.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_perennial_event_press.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_survival_event.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_survival_event_hover.png" />
+    <Image Include="..\..\..\..\Desktop\Event\btn_survival_event_press.png" />
+    <Image Include="Resources\Buttons\com_button.png" />
+    <Image Include="Resources\Buttons\com_button_centerdata.png" />
+    <Image Include="Resources\Buttons\com_button_center_focusdata.png" />
+    <Image Include="Resources\Buttons\com_button_disabled.png" />
+    <Image Include="Resources\Buttons\com_button_hover.png" />
+    <Image Include="Resources\Buttons\com_button_leftdata.png" />
+    <Image Include="Resources\Buttons\com_button_left_focusdata.png" />
+    <Image Include="Resources\Buttons\com_button_press.png" />
+    <Image Include="Resources\Buttons\com_button_rightdata.png" />
+    <Image Include="Resources\Buttons\com_button_right_focusdata.png" />
+    <Image Include="Resources\Buttons\com_button_use_title.png" />
+    <Image Include="Resources\Buttons\com_button_use_title_hover.png" />
+    <Image Include="Resources\Buttons\com_button_use_title_press.png" />
+    <Image Include="Resources\Chest\button_take.png" />
+    <Image Include="Resources\Chest\button_takeall.png" />
+    <Image Include="Resources\Chest\button_take_hover.png" />
+    <Image Include="Resources\Chest\button_take_normal.png" />
+    <Image Include="Resources\Chest\button_take_press.png" />
+    <Image Include="Resources\Chest\chest_button_take.png" />
+    <Image Include="Resources\Chest\chest_button_take_hover.png" />
+    <Image Include="Resources\Chest\chest_button_take_press.png" />
+    <Image Include="Resources\Chest\chest_content.png" />
+    <Image Include="Resources\Chest\items_tab.png" />
+    <Image Include="Resources\Chest\items_tab_header.png" />
+    <Image Include="Resources\CustomBackgrounds\grant_bg.png" />
+    <Image Include="Resources\CustomBackgrounds\title_bg.png" />
+    <Image Include="Resources\CustomButtons\cancel_button.png" />
+    <Image Include="Resources\CustomButtons\cancel_button_hover.png" />
+    <Image Include="Resources\CustomButtons\cancel_button_press.png" />
+    <Image Include="Resources\CustomButtons\change_button.png" />
+    <Image Include="Resources\CustomButtons\change_button_hover.png" />
+    <Image Include="Resources\CustomButtons\change_button_press.png" />
+    <Image Include="Resources\CustomFrame\top_image_bg.png" />
+    <Image Include="Resources\CustomFrame\top_image_close_button.png" />
+    <Image Include="Resources\CustomFrame\top_image_close_button_hover.png" />
+    <Image Include="Resources\CustomFrame\top_image_close_button_press.png" />
+    <Image Include="Resources\DPSMeter\dps_meter_bg.png" />
+    <Image Include="Resources\EventManager\btn_new_cancel.png" />
+    <Image Include="Resources\EventManager\btn_new_cancel_disabled.png" />
+    <Image Include="Resources\EventManager\btn_new_cancel_hover.png" />
+    <Image Include="Resources\EventManager\btn_new_cancel_press.png" />
+    <Image Include="Resources\EventManager\btn_new_register.png" />
+    <Image Include="Resources\EventManager\btn_new_register_disabled.png" />
+    <Image Include="Resources\EventManager\btn_new_register_hover.png" />
+    <Image Include="Resources\EventManager\btn_new_register_press.png" />
+    <Image Include="Resources\EventManager\event_manager_bg.png" />
+    <Image Include="Resources\Form\bottom_centerdata.png" />
+    <Image Include="Resources\Form\com_windowclosedata.png" />
+    <Image Include="Resources\Form\com_windowclose_focusdata.png" />
+    <Image Include="Resources\Form\com_windowclose_pressdata.png" />
+    <Image Include="Resources\Form\contentdata.png" />
+    <Image Include="Resources\Form\left_borderdata.png" />
+    <Image Include="Resources\Form\left_bottom_begindata.png" />
+    <Image Include="Resources\Form\left_up_borderdata.png" />
+    <Image Include="Resources\Form\right_borderdata.png" />
+    <Image Include="Resources\Form\right_bottom_enddata.png" />
+    <Image Include="Resources\Form\right_up_borderdata.png" />
+    <Image Include="Resources\Form\up_centerdata.png" />
+    <Image Include="Resources\KillCounters\Fortress\fw_counter.png" />
+    <Image Include="Resources\KillCounters\Fortress\guild1.png" />
+    <Image Include="Resources\KillCounters\Fortress\guild2.png" />
+    <Image Include="Resources\KillCounters\Fortress\guild3.png" />
+    <Image Include="Resources\KillCounters\Fortress\player1.png" />
+    <Image Include="Resources\KillCounters\Fortress\player2.png" />
+    <Image Include="Resources\KillCounters\Fortress\player3.png" />
+    <Image Include="Resources\KillCounters\top5_counter.png" />
+    <Image Include="Resources\Menu\close_button.png" />
+    <Image Include="Resources\Menu\close_button_hover.png" />
+    <Image Include="Resources\Menu\close_button_press.png" />
+    <Image Include="Resources\Menu\custom_title_button.png" />
+    <Image Include="Resources\Menu\custom_title_button_hover.png" />
+    <Image Include="Resources\Menu\custom_title_button_press.png" />
+    <Image Include="Resources\Menu\event_manager_button.png" />
+    <Image Include="Resources\Menu\event_manager_button_hover.png" />
+    <Image Include="Resources\Menu\event_manager_button_press.png" />
+    <Image Include="Resources\Menu\grant_name_button.png" />
+    <Image Include="Resources\Menu\grant_name_button_hover.png" />
+    <Image Include="Resources\Menu\grant_name_button_press.png" />
+    <Image Include="Resources\Menu\menu_bg.png" />
+    <Image Include="Resources\Menu\ranking_button.png" />
+    <Image Include="Resources\Menu\ranking_button_hover.png" />
+    <Image Include="Resources\Menu\ranking_button_press.png" />
+    <Image Include="Resources\Menu\title_manager_button.png" />
+    <Image Include="Resources\Menu\title_manager_button_hover.png" />
+    <Image Include="Resources\Menu\title_manager_button_press.png" />
+    <Image Include="Resources\Menu\unique_status_button.png" />
+    <Image Include="Resources\Menu\unique_status_button_hover.png" />
+    <Image Include="Resources\Menu\unique_status_button_press.png" />
+    <Image Include="Resources\Menu_Icons\chest_icon.png" />
+    <Image Include="Resources\Menu_Icons\chest_icon_hover.png" />
+    <Image Include="Resources\Menu_Icons\menu_icon.png" />
+    <Image Include="Resources\Menu_Icons\menu_icon_hover.png" />
+    <Image Include="Resources\Paginator\btn_pagination_left.png" />
+    <Image Include="Resources\Paginator\btn_pagination_left_hover.png" />
+    <Image Include="Resources\Paginator\btn_pagination_left_press.png" />
+    <Image Include="Resources\Paginator\btn_pagination_right.png" />
+    <Image Include="Resources\Paginator\btn_pagination_right_hover.png" />
+    <Image Include="Resources\Paginator\btn_pagination_right_press.png" />
+    <Image Include="Resources\Paginator\com_left_arrow.png" />
+    <Image Include="Resources\Paginator\com_left_arrow_disable.png" />
+    <Image Include="Resources\Paginator\com_left_arrow_focus.png" />
+    <Image Include="Resources\Paginator\com_left_arrow_press.png" />
+    <Image Include="Resources\Paginator\com_right_arrow.png" />
+    <Image Include="Resources\Paginator\com_right_arrow_disable.png" />
+    <Image Include="Resources\Paginator\com_right_arrow_focus.png" />
+    <Image Include="Resources\Paginator\com_right_arrow_press.png" />
+    <Image Include="Resources\Paginator\paginator_bg.png" />
+    <Image Include="Resources\Pandora\pandora_bg.png" />
+    <Image Include="Resources\Panel\com_bg_tile_cdata.png" />
+    <Image Include="Resources\Panel\ub_pet_wnd_left_downdata.png" />
+    <Image Include="Resources\Panel\ub_pet_wnd_left_sidedata.png" />
+    <Image Include="Resources\Panel\ub_pet_wnd_left_updata.png" />
+    <Image Include="Resources\Panel\ub_pet_wnd_mid_downdata.png" />
+    <Image Include="Resources\Panel\ub_pet_wnd_mid_updata.png" />
+    <Image Include="Resources\Panel\ub_pet_wnd_right_downdata.png" />
+    <Image Include="Resources\Panel\ub_pet_wnd_right_sidedata.png" />
+    <Image Include="Resources\Panel\ub_pet_wnd_right_updata.png" />
+    <Image Include="Resources\ScrollBar\com_scroll_arrow_down_data.png" />
+    <Image Include="Resources\ScrollBar\com_scroll_arrow_down_focus_data.png" />
+    <Image Include="Resources\ScrollBar\com_scroll_arrow_up_data.png" />
+    <Image Include="Resources\ScrollBar\com_scroll_arrow_up_focus_data.png" />
+    <Image Include="Resources\ScrollBar\com_scroll_bar_bg_data.png" />
+    <Image Include="Resources\ScrollBar\com_scroll_button_data.png" />
+    <Image Include="Resources\ScrollBar\com_scroll_button_focus_data.png" />
+    <Image Include="Resources\TextBox\custom_textbox.png" />
+    <Image Include="Resources\TitleManager\TitleStorage_bg.png" />
+    <Image Include="Resources\UniqueStatus\btn_reload.png" />
+    <Image Include="Resources\UniqueStatus\btn_reload_hover.png" />
+    <Image Include="Resources\UniqueStatus\btn_reload_press.png" />
+    <Image Include="Resources\UniqueStatus\unique_status_bg.png" />
+    <Image Include="Resources\UniqueStatus\unique_status_head.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,108 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v150\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (QProxyLib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\stdafx.h(9): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\stdafx.cpp: note: see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  Character.cpp
+  CharacterSpawn.cpp
+  ClientCommonSettings.cpp
+  D3DEngine.cpp
+  D3DMisc.cpp
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\clientcommonsettings\clientcommonsettings.cpp(104): warning C4309: '=': truncation of constant value
+  GameCommonHooks.cpp
+  GameInputHooks.cpp
+  AccountLockedWindow.cpp
+  AccountLockWindow.cpp
+  ChestWindow.cpp
+  CustomTitleWindow.cpp
+  DPSMeterWindow.cpp
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\d3dengine\guis\chestwindow.cpp(83): warning C4018: '>=': signed/unsigned mismatch
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\d3dengine\guis\chestwindow.cpp(339): warning C4018: '<': signed/unsigned mismatch
+  DynamicShop.cpp
+  EventManager.cpp
+  GrantNameWindow.cpp
+  CustomButton.cpp
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\d3dengine\guis\eventmanager.cpp(211): warning C4309: 'argument': truncation of constant value
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\d3dengine\guis\eventmanager.cpp(221): warning C4309: 'argument': truncation of constant value
+  CustomLabel.cpp
+  IconWindow.cpp
+  RankingWindow.cpp
+  MainMenuWindow.cpp
+  SplashScreen.cpp
+  EventTimesWindow.cpp
+  TitleManager.cpp
+  Top5FTWKillCounter.cpp
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\d3dengine\guis\eventtimeswindow.cpp(79): warning C4018: '<': signed/unsigned mismatch
+  Top5KillCounter.cpp
+  UniqueStatus.cpp
+  ResourceManager.cpp
+  WndProc.cpp
+  Discord.cpp
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\d3dengine\guis\uniquestatus.cpp(125): warning C4018: '<': signed/unsigned mismatch
+  dllmain.cpp
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\d3dengine\wndproc.cpp(376): warning C4733: Inline asm assigning to 'FS:0': handler not registered as safe handler
+  CharacterIcons.cpp
+  ChatManager.cpp
+  GameColors.cpp
+  GlobalItemLinking.cpp
+  HWIDManager.cpp
+  OldAlchemy.cpp
+  CNIFUnderMenuBar.cpp
+  OldItemMall.cpp
+  char_select.cpp
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\gamefeatures\globalitemlinking\globalitemlinking.cpp(274): warning C4834: discarding return value of function with 'nodiscard' attribute
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\gamefeatures\globalitemlinking\globalitemlinking.cpp(279): warning C4101: 'ex': unreferenced local variable
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\gamefeatures\globalitemlinking\globalitemlinking.cpp(434): warning C4101: 'ex': unreferenced local variable
+  static_constructor.cpp
+  CParamRare.cpp
+  PHBotManager.cpp
+  CGEffSoundBody.cpp
+  GameMain.cpp
+  CGInterface.cpp
+  CSOItem.cpp
+  IFEquipment.cpp
+  IFHelperBubbleWindow.cpp
+  IFInventory.cpp
+  IFMainPopup.cpp
+  IFMessageBox.cpp
+  IFMinimap.cpp
+  IFSlotWithHelp.cpp
+  CharacterDependentData.cpp
+  CICPlayer.cpp
+  CNIRMManager.cpp
+  GlobalDataManager.cpp
+  TextStringManager.cpp
+  InterfaceActions.cpp
+  OldThreeJob.cpp
+  CStringHelper.cpp
+  md5.cpp
+  MemoryHelper.cpp
+  IFItemComparison.cpp
+  LicenseManager.cpp
+  MemPoolManager.cpp
+  MsgHandler.cpp
+  MsgStreamBuffer.cpp
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\network\msgstreambuffer.cpp(73): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=uint16_t
+          ]
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\network\msgstreambuffer.cpp(91): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=uint16_t
+          ]
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\network\mempoolmanager.h(26): warning C4172: returning address of local variable or temporary: result
+  NetCustoms.cpp
+  QProxyLib.cpp
+  SilkroadWeb.cpp
+  WebManager.cpp
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\network\msghandler.cpp(20): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\network\msghandler.cpp(797): warning C4018: '<': signed/unsigned mismatch
+d:\source\silkroad\clientlibs\wfilterlib - users\qproxylib\network\msghandler.cpp(818): warning C4018: '<': signed/unsigned mismatch
+     Creating library ..\..\..\..\..\Silkroad\Clients\AngelRoad_client\wFilterLib.lib and object ..\..\..\..\..\Silkroad\Clients\AngelRoad_client\wFilterLib.exp
+detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'D:\Silkroad\Clients\AngelRoad_client\detours.pdb'; linking object as if no debug info
+detours.lib(modules.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(modules.obj)' or at 'D:\Silkroad\Clients\AngelRoad_client\detours.pdb'; linking object as if no debug info
+detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'D:\Silkroad\Clients\AngelRoad_client\detours.pdb'; linking object as if no debug info
+  QProxyLib.vcxproj -> D:\source\silkroad\ClientLibs\wFilterLib - Users\QProxyLib\..\..\..\..\..\Silkroad\Clients\AngelRoad_client\wFilterLib.dll

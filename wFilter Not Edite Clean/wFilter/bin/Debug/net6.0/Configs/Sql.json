@@ -1,0 +1,7 @@
+{
+  "SqlServer": "WIN-PN7RH6F6CIT\\SQLEXPRESS",
+  "User": "Ehab",
+  "Password": "01095749248@E",
+  "AccountDatabase": "SRO_VT_ACCOUNT",
+  "ShardDatabase": "SRO_VT_SHARD"
+}

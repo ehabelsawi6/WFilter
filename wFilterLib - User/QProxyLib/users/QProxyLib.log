@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Insiders\MSBuild\Microsoft\VC\v150\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
+C:\Program Files\Microsoft Visual Studio\18\Insiders\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     Creating library C:\Users\dreams-2026\Desktop\Vsro1.188 Clean\wFilterLib.lib and object C:\Users\dreams-2026\Desktop\Vsro1.188 Clean\wFilterLib.exp
+detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'C:\Users\dreams-2026\Desktop\Vsro1.188 Clean\detours.pdb'; linking object as if no debug info
+detours.lib(modules.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(modules.obj)' or at 'C:\Users\dreams-2026\Desktop\Vsro1.188 Clean\detours.pdb'; linking object as if no debug info
+detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'C:\Users\dreams-2026\Desktop\Vsro1.188 Clean\detours.pdb'; linking object as if no debug info
+  QProxyLib.vcxproj -> C:\Users\dreams-2026\Desktop\Vsro1.188 Clean\wFilterLib.dll

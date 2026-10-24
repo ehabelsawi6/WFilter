@@ -1,0 +1,25 @@
+{
+  "Blowfish": true,
+  "SecurityBytes": true,
+  "Handshake": true,
+  "GatewayServer": {
+    "PublicPort": 33001,
+    "ModuleIp": "167.233.214.148",
+    "ModulePort": 15778
+  },
+  "DownloadServer": {
+    "PublicPort": 33002,
+    "ModuleIp": "167.233.214.148",
+    "ModulePort": 45002
+  },
+  "AgentServer1": {
+    "PublicPort": 33003,
+    "ModuleIp": "167.233.214.148",
+    "ModulePort": 25005
+  },
+  "AgentServer2": {
+    "PublicPort": 0,
+    "ModuleIp": "167.233.214.148",
+    "ModulePort": 0
+  }
+}

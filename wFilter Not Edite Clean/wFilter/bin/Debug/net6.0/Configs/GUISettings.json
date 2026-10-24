@@ -1,0 +1,24 @@
+{
+  "TitleManager": true,
+  "UniqueStatus": true,
+  "EventTimes": true,
+  "GrantName": true,
+  "CustomTitle": true,
+  "DynamicShop": true,
+  "Facebook": true,
+  "Discord": true,
+  "Website": true,
+  "FacebookLink": "https://wFilter.online",
+  "DiscordLink": "https://wFilter.online",
+  "WebsiteLink": "https://wFilter.online",
+  "KillCounters": [],
+  "GlobalColors": {
+    "Green": 0,
+    "Blue": 0,
+    "Crimson": 0,
+    "Purple": 0,
+    "Orange": 0,
+    "DarkCyan": 0,
+    "Red": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Enable": false,
+  "MinLevel": 100,
+  "RewardEvery": 10,
+  "SilkType": "Own",
+  "RewardAmount": 1,
+  "RewardAfk": true,
+  "PCLimit": 0
+}

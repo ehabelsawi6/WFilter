@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OSHGui>
+  <form name="form1" enabled="true" visible="true" location="6,6" size="475,300" anchor="top|left" autoSize="false" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="FF7C7B79" text="Form1">
+    <panel name="panel1" enabled="true" visible="true" location="24,26" size="166,178" anchor="top|left" autoSize="false" font="Arial,11,false,false,false" foreColor="0" backColor="0">
+      <button name="buttonName" enabled="true" visible="true" location="102,145" size="50,24" anchor="top|left" autoSize="false" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="FF4E4E4E" text="Buy" />
+      <label name="priceName" enabled="true" visible="true" location="22,145" size="46,14" anchor="top|left" autoSize="true" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="0" text="Price : 0" />
+      <colorPicker name="colorPickerName" enabled="true" visible="true" location="8,40" size="151,92" anchor="top|left" autoSize="false" font="Arial,11,false,false,false" foreColor="0" backColor="0" color="FFFFFFFF" />
+      <label name="label6" enabled="true" visible="true" location="14,18" size="47,14" anchor="top|left" autoSize="true" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="0" text="Preview" />
+      <checkBox name="checkName" enabled="true" visible="true" location="71,16" size="87,17" anchor="top|left" autoSize="true" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="FF222222" text="Live Preview" checked="false" />
+    </panel>
+    <label name="label5" enabled="true" visible="true" location="65,9" size="85,14" anchor="top|left" autoSize="true" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="0" text="CharName Color" />
+    <panel name="panel2" enabled="true" visible="true" location="263,26" size="166,178" anchor="top|left" autoSize="false" font="Arial,11,false,false,false" foreColor="0" backColor="0">
+      <button name="buttonTitle" enabled="true" visible="true" location="102,145" size="50,24" anchor="top|left" autoSize="false" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="FF4E4E4E" text="Buy" />
+      <label name="priceTitle" enabled="true" visible="true" location="22,145" size="46,14" anchor="top|left" autoSize="true" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="0" text="Price : 0" />
+      <colorPicker name="colorPickerTitle" enabled="true" visible="true" location="8,40" size="151,93" anchor="top|left" autoSize="false" font="Arial,11,false,false,false" foreColor="0" backColor="0" color="FFFFFFFF" />
+      <label name="label8" enabled="true" visible="true" location="14,18" size="47,14" anchor="top|left" autoSize="true" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="0" text="Preview" />
+      <checkBox name="checkTitle" enabled="true" visible="true" location="71,16" size="87,17" anchor="top|left" autoSize="true" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="FF222222" text="Live Preview" checked="false" />
+    </panel>
+    <label name="label9" enabled="true" visible="true" location="301,9" size="81,14" anchor="top|left" autoSize="true" font="Arial,11,false,false,false" foreColor="FFE5E0E4" backColor="0" text="TitleName Color" />
+  </form>
+</OSHGui>

@@ -1,0 +1,14 @@
+D:\Development\wFilterOutPut\Release\net6.0\publish\wFilterV3.exe
+D:\Development\wFilterOutPut\Release\net6.0\publish\wFilterV3.dll
+D:\Development\wFilterOutPut\Release\net6.0\publish\wFilterV3.deps.json
+D:\Development\wFilterOutPut\Release\net6.0\publish\wFilterV3.runtimeconfig.json
+D:\Development\wFilterOutPut\Release\net6.0\publish\Dapper.dll
+D:\Development\wFilterOutPut\Release\net6.0\publish\Newtonsoft.Json.dll
+D:\Development\wFilterOutPut\Release\net6.0\publish\NLog.dll
+D:\Development\wFilterOutPut\Release\net6.0\publish\System.Data.SqlClient.dll
+D:\Development\wFilterOutPut\Release\net6.0\publish\runtimes\win-arm64\native\sni.dll
+D:\Development\wFilterOutPut\Release\net6.0\publish\runtimes\win-x64\native\sni.dll
+D:\Development\wFilterOutPut\Release\net6.0\publish\runtimes\win-x86\native\sni.dll
+D:\Development\wFilterOutPut\Release\net6.0\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Development\wFilterOutPut\Release\net6.0\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Development\wFilterOutPut\Release\net6.0\publish\wFilterLib.dll

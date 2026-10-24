@@ -1,0 +1,67 @@
+// this, (1024, possibly mask, 0 unknown) those 2 args are used by overlapped job mgr
+// 
+// ============================================================
+// typedef DWORD (__thiscall* fnBackupData)(CGObjPC*, int, int);
+// ============================================================
+// 
+// The following call was taken from trijob exp update packet.
+// 
+// fnBackupData pfnBackupData = reinterpret_cast<fnBackupData>(0x004E64D0);
+// 
+// pfnBackupData(pPC, 1024, 0);
+// 
+// ============================================================
+int __thiscall CGObjPC::BackupData(srCGObj_PC_AND_OTHERS *this, int a2, int a3)
+{
+  srCInstancePC *pInstance; // eax MAPDST
+  bool bIsExpOffsetZero; // zf
+  int va_list; // eax
+  int v8; // ecx
+  _DWORD *v9; // esi
+  int result; // eax
+  int savedregs; // [esp+8h] [ebp+0h]
+
+  pInstance = this->pInstance;
+  if ( SHIDWORD(pInstance->pRefObj.qwExpOffset) <= 0 )
+  {
+    if ( pInstance->pRefObj.qwExpOffset < 0.0 )
+    {
+      va_list = ((int (__thiscall *)(srCGObj_PC_AND_OTHERS *, _DWORD, _DWORD, _DWORD, _DWORD))this->VFT->GetCharName_AndVaList_WeirdShit)(
+                  this,
+                  LODWORD(pInstance->pRefObj.qwExpOffset),
+                  HIDWORD(pInstance->pRefObj.qwExpOffset),
+                  (unsigned __int8)pInstance->pRefObj.CurLevel,
+                  (unsigned __int8)pInstance->pRefObj.MaxLevel);
+      DEC_MsgOut_sub_936640(
+        0x1000000,
+        "%s: ExpOffset is minus while saving char data!: ExpOffset: %I64d [CurLvl: %d, MaxLvl: %d]",
+        va_list);
+      pInstance = this->pInstance;
+      if ( LODWORD(pInstance->pRefObj.qwExpOffset) || HIDWORD(pInstance->pRefObj.qwExpOffset) )
+      {
+        if ( g_Unk_PlayerTopMarkRelated_CanBe5d_dword_D1FBF4 & 1 )
+        {
+          v8 = *(_DWORD *)&pInstance->StateRelated;
+          pInstance->StatePossibly |= 4u;
+          LODWORD(pInstance->pRefObj.qwExpOffset) = 0;
+          HIDWORD(pInstance->pRefObj.qwExpOffset) = 0;
+          *(_DWORD *)&pInstance->StateRelated = v8;
+        }
+        else
+        {
+          DEC_DebugOops_sub_964B60();
+        }
+      }
+    }
+    else
+    {
+      bIsExpOffsetZero = LODWORD(pInstance->pRefObj.qwExpOffset) == 0;// Negatoation for qwExpOffset being 0, so, this is true if exp offset is zero.
+    }
+  }
+  v9 = (_DWORD *)WIP_LobbyEntryRelated_sub_441200((int)&savedregs);
+  if ( WIP_LobbyEntry_OverlapJobRelated_sub_441260(this, v9, a2, a3) )
+    result = DEC_CMainProcess_Related_sub_4E7350((int)v9, 1);
+  else
+    result = (*(int (__thiscall **)(_DWORD *, _DWORD *))(*v9 + 12))(v9, v9);
+  return result;
+}

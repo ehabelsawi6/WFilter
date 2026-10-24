@@ -1,0 +1,17 @@
+{
+  "Enable": false,
+  "MinPlayers": 2,
+  "MaxPlayers": 30,
+  "BlockZerk": false,
+  "RequireLevel": 0,
+  "PlayingDuration": 30,
+  "RegisterDuration": 10,
+  "RegionId": 25580,
+  "PosX": 0,
+  "PosY": 0,
+  "PosZ": 0,
+  "RewardType": 1,
+  "RewardCount": 1,
+  "RewardCodeName": "",
+  "Schedules": []
+}

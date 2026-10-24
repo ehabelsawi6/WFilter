@@ -1,0 +1,2 @@
+//	System Effect	시스템 효과
+1	어그로 최상위자 표시	SYSTEM_AGGRO_EFFECT	0	FALSE	0	DEFAULT	none	none	none	none	none	none	none	none	0	0,0,0,0	ONE	none	none	none	none	none	none	none	0	1	

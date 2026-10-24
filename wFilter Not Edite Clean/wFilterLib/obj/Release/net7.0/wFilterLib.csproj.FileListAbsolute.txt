@@ -1,0 +1,36 @@
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\bin\Release\net7.0\wFilterLib.deps.json
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\bin\Release\net7.0\wFilterLib.dll
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\bin\Release\net7.0\CustomMarshalers.dll
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\obj\Release\net7.0\wFilterLib.csproj.AssemblyReference.cache
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\obj\Release\net7.0\wFilterLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\obj\Release\net7.0\wFilterLib.AssemblyInfoInputs.cache
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\obj\Release\net7.0\wFilterLib.AssemblyInfo.cs
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\obj\Release\net7.0\wFilterLib.csproj.CoreCompileInputs.cache
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\obj\Release\net7.0\wFilterLib.csproj.CopyComplete
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\obj\Release\net7.0\wFilterLib.dll
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\obj\Release\net7.0\refint\wFilterLib.dll
+C:\Users\karim\source\repos\wkFilter - Xeon - Copy\wFilterLib\obj\Release\net7.0\ref\wFilterLib.dll
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\bin\Release\net7.0\wFilterLib.deps.json
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\bin\Release\net7.0\wFilterLib.dll
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\bin\Release\net7.0\CustomMarshalers.dll
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\obj\Release\net7.0\wFilterLib.csproj.AssemblyReference.cache
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\obj\Release\net7.0\wFilterLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\obj\Release\net7.0\wFilterLib.AssemblyInfoInputs.cache
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\obj\Release\net7.0\wFilterLib.AssemblyInfo.cs
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\obj\Release\net7.0\wFilterLib.csproj.CoreCompileInputs.cache
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\obj\Release\net7.0\wFilterLib.csproj.CopyComplete
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\obj\Release\net7.0\wFilterLib.dll
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\obj\Release\net7.0\refint\wFilterLib.dll
+C:\Users\karim\source\repos\wkFilterV3 - Xeon\wFilterLib\obj\Release\net7.0\ref\wFilterLib.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\bin\Release\net7.0\wFilterLib.deps.json
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\bin\Release\net7.0\wFilterLib.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\bin\Release\net7.0\CustomMarshalers.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\wFilterLib.csproj.AssemblyReference.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\wFilterLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\wFilterLib.AssemblyInfoInputs.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\wFilterLib.AssemblyInfo.cs
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\wFilterLib.csproj.CoreCompileInputs.cache
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\wFilterLib.csproj.CopyComplete
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\wFilterLib.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\refint\wFilterLib.dll
+D:\Development\Silkroad\Filters\wFilter V3\wFilterLib\obj\Release\net7.0\ref\wFilterLib.dll

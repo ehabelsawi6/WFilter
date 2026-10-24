@@ -1,0 +1,84 @@
+//SKILL_TC_COPPER_BUFF_01
+
+			class CRefDataManager;
+				struct SRefSkill;
+
+				typedef CRefDataManager* (__cdecl* fnGetRefDataManagerInstance)();
+
+				fnGetRefDataManagerInstance pfnGetRefDataManagerInstance = 
+					reinterpret_cast<fnGetRefDataManagerInstance>(0x00404CA0);
+
+				CRefDataManager* pRefDataMgr = pfnGetRefDataManagerInstance();
+
+				printf("pRefDataMgr = 0x%p\n", pRefDataMgr);
+
+
+				typedef std::map<int, SRefSkill*> skill_map_t;
+				typedef skill_map_t::iterator skill_map_it_t;
+
+				DWORD dwAddr = (DWORD)pRefDataMgr+0x888;
+
+				skill_map_t* map = reinterpret_cast<skill_map_t*>(dwAddr);
+				printf("pMap = 0x%p\n", map);
+
+				printf("count = %d", map->size());
+
+				/*
+				
+				skill_map_it_t cur = map->begin();
+				skill_map_it_t end = map->end();
+
+				//12000
+
+				//get the skill
+
+				DWORD dwGetSkillAddr = 0x0046C1F0;
+
+				SRefSkill* pSkill = NULL;
+
+				__asm push 12000;
+				__asm mov eax, map;
+				__asm call dwGetSkillAddr;
+				__asm mov pSkill, eax;
+
+				printf("pSkill = 0x%p\n", pSkill);
+				*/
+
+				//typedef void(__thiscall* fnCGObjPC_EngageBuffSkill)(CGObjPC*, double, const char*, int);
+				//fnCGObjPC_EngageBuffSkill pfnEngageBuffSkill = reinterpret_cast<fnCGObjPC_EngageBuffSkill>(0x004F1800);
+				double dbl = 1.00;
+				//pfnEngageBuffSkill(pPC, dbl, "SKILL_TC_COPPER_BUFF_01", 1);
+
+
+				const char* szSkillName = "SKILL_CH_FIRE_GONGUP_C_03";
+				DWORD dwCallAddr = 0x004F1800;
+
+
+				__asm push 1;
+				__asm push szSkillName;
+				__asm fld dbl; //fld
+				__asm mov ecx, pPC;
+				__asm call dwCallAddr;
+
+				/*
+				DWORD dwEncageSkillAddr = 0x0059B8D0;
+				float flt = 1.0;
+				__asm pushad;
+				__asm push 0;
+				__asm push 0;
+				__asm push 0;
+				__asm push pSkill;
+				__asm fld flt;
+				__asm call dwEncageSkillAddr;
+				__asm popad;
+				printf("Engage skill called !\n");
+				*/
+				/*
+
+				while (cur != end)
+				{
+					SRefSkill* skill = cur->second;
+					
+					++cur;
+				}
+				*/
