@@ -4,6 +4,7 @@ using wFilterLib.Networking.PacketStuff;
 using wFilterLib.Opcodes;
 using wFilterLib.SSA;
 using wFilterLib;
+using wFilterLib.Events;
 
 namespace wkFilter.NetworkStuff.PacketHandler.Agent;
 
@@ -20,6 +21,10 @@ public partial class AgentHandler
         if (chatType is 1 or 6 or 3){
             message = pck.ReadAscii();
         }
+
+        if (chatType is 1 or 6 or 3 && AutoEventManager.HandleChat(session, message, chatType))
+            return new PacketResult(PacketResultType.Block);
+
         if (Config.GetSurvivalEvent.Enable)
             if (chatType is 1 or 3 && (message.ToLower().Contains("!register") || message.ToLower().Contains("!cancel")))
         {
@@ -277,6 +282,12 @@ public partial class AgentHandler
                     else if (message.Contains("eventend"))
                     {
                         session.GetSql.ExecuteNonQuery($"exec sro_vt_log.._CustomEventControl 3");
+                        return new PacketResult(PacketResultType.Block);
+                    }
+                    else if (message.StartsWith("autoevent", StringComparison.OrdinalIgnoreCase) ||
+                             message.StartsWith("!autoevent", StringComparison.OrdinalIgnoreCase))
+                    {
+                        AutoEventManager.HandleChat(session, message, chatType);
                         return new PacketResult(PacketResultType.Block);
                     }
                 }

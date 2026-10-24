@@ -3,6 +3,7 @@ using wFilterLib.Networking.Session;
 using wFilterLib.Networking.PacketStuff;
 using wFilterLib.SSA;
 using wFilterLib.Database.Models;
+using wFilterLib.Events;
 
 namespace wkFilter.NetworkStuff.PacketHandler.Agent
 {
@@ -22,8 +23,13 @@ namespace wkFilter.NetworkStuff.PacketHandler.Agent
                     if (refObjId > 0)
                     {
                         var killerName = "";
+                        var killerCharName = "";
                         if (operationType == 0x0C06)
-                            killerName = " - Killed by " + packet.ReadAscii();
+                        {
+                            killerCharName = packet.ReadAscii();
+                            killerName = " - Killed by " + killerCharName;
+                            AutoEventManager.OnUniqueKilled(killerCharName);
+                        }
 
                         var isFound = false;
                         foreach (var data in Globals.UniquesData.Where(data => data.RefObjId == refObjId))

@@ -114,6 +114,10 @@ internal class Program
        survivalEvent.IsBackground = true;
         survivalEvent.Start();
 
+       var autoEvent = new Thread(AutoEventManager.Initialize);
+       autoEvent.IsBackground = true;
+        autoEvent.Start();
+
 
     }
 
@@ -133,7 +137,27 @@ internal class Program
                 case "/count":
                     
                     break;
+                case "/autoevent trivia":
+                    AutoEventManager.StartTrivia();
+                    break;
+                case "/autoevent lottery":
+                    AutoEventManager.StartLottery();
+                    break;
+                case "/autoevent luckynumber":
+                    AutoEventManager.StartLuckyNumber();
+                    break;
+                case "/autoevent unique":
+                    AutoEventManager.StartUniqueHunt();
+                    break;
+                case "/autoevent hideseek":
+                    AutoEventManager.StartHideSeek();
+                    break;
+                case "/autoevent stop":
+                    AutoEventManager.TryManualStart("stop");
+                    break;
                 default:
+                    if (!string.IsNullOrEmpty(cmd) && cmd.StartsWith("/autoevent "))
+                        AutoEventManager.TryManualStart(cmd.Replace("/autoevent ", ""));
                     break;
             }
 

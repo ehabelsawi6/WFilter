@@ -23,6 +23,7 @@ public static class Config
    // public static BadWords GetBadWords = new();
     public static GUISettings GetGUISettings = new();
     public static SurvivalEvent GetSurvivalEvent = new();
+    public static AutoEvent GetAutoEvent = new();
 
     //AngelRoad stuff
     public static bool IsAngelRoad = false;

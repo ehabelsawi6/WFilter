@@ -27,6 +27,7 @@ public static class Settings
    // public const string BadWordsPath = "Configs/BadWords.json";
     public const string GUISettingsPath = "Configs/GUISettings.json";
     public const string SurvivalEventPath = "Configs/SurvivalEvent.json";
+    public const string AutoEventPath = "Configs/AutoEvent.json";
 
 
     public static bool Load(ServerType serverType)
@@ -288,6 +289,19 @@ public static class Settings
 
                 Config.GetSurvivalEvent = PersistenceHelper.ReadFile<SurvivalEvent>(SurvivalEventPath);
                 logger.Info($"{SurvivalEventPath} loaded successfully !");
+
+                #endregion
+
+                #region Auto Event
+
+                if (!File.Exists(AutoEventPath))
+                {
+                    logger.Warn($"{AutoEventPath} was not found , Creating default file...");
+                    PersistenceHelper.WriteFile(Config.GetAutoEvent, AutoEventPath);
+                }
+
+                Config.GetAutoEvent = PersistenceHelper.ReadFile<AutoEvent>(AutoEventPath);
+                logger.Info($"{AutoEventPath} loaded successfully !");
 
                 #endregion
             }
